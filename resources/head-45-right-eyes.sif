@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+  <name>Synfig Animation 2</name>
+  <keyframe time="0f" active="true">open</keyframe>
+  <keyframe time="12f" active="true">closed</keyframe>
+  <keyframe time="1s" active="true">left</keyframe>
+  <keyframe time="1s 12f" active="true">right</keyframe>
+  <keyframe time="2s" active="true">up</keyframe>
+  <keyframe time="2s 12f" active="true">down</keyframe>
+  <layer type="PasteCanvas" active="true" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="canvas" use="head-45-left-eyes.sif#"/>
+    <param name="zoom">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="true"/>
+    </param>
+    <param name="focus">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="stretch" active="true" version="0.1">
+    <param name="amount">
+      <vector>
+        <x>-1.0000000000</x>
+        <y>1.0000000000</y>
+      </vector>
+    </param>
+    <param name="center">
+      <vector>
+        <x>0.0500000007</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+  </layer>
+</canvas>
