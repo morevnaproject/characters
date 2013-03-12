@@ -40561,10 +40561,21 @@
               </layer>
               <layer type="stretch" active="true" version="0.1" desc="compensator-wrist1" group="(stk)-stretches">
                 <param name="amount">
-                  <vector>
-                    <x>1.4293235540</x>
-                    <y>1.0000000000</y>
-                  </vector>
+                  <composite type="vector">
+                    <x>
+                      <reciprocal type="real" link=":(stk)-wrist1-r">
+                        <epsilon>
+                          <real value="0.0000010000"/>
+                        </epsilon>
+                        <infinite>
+                          <real value="999999.0000000000"/>
+                        </infinite>
+                      </reciprocal>
+                    </x>
+                    <y>
+                      <real value="1.0000000000"/>
+                    </y>
+                  </composite>
                 </param>
                 <param name="center">
                   <vector>
