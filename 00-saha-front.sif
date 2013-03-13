@@ -266,6 +266,7 @@
         <real value="-3.6503827572"/>
       </waypoint>
     </animated>
+    <string id="(stk)-version">1</string>
     <canvas id="mimic" bgcolor="0.500000 0.500000 0.500000 1.000000">
       <keyframe time="0f" active="true"/>
       <defs>
@@ -5773,46 +5774,6 @@
                   <angle value="90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-wrist2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-wrist2-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="wrist2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-wrist2-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
               <layer type="rotate" active="true" version="0.1">
                 <param name="origin">
                   <greyed type="vector">
@@ -7341,10 +7302,10 @@
                   <angle value="90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-elbow2" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="(stk)-elbow2-r-compensator" group="(stk)-stretches">
                 <param name="amount">
                   <vector>
-                    <x>1.3643178940</x>
+                    <x>1.2653354406</x>
                     <y>1.0000000000</y>
                   </vector>
                 </param>
@@ -7355,7 +7316,7 @@
                   </vector>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="elbow2" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="elbow2">
                 <param name="amount">
                   <composite type="vector" x=":(stk)-elbow2-r">
                     <y>
@@ -8327,46 +8288,6 @@
                 </param>
                 <param name="amount">
                   <angle value="90.000000"/>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-wrist1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-wrist1-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="wrist1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-wrist1-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
                 </param>
               </layer>
               <layer type="rotate" active="true" version="0.1">
@@ -9858,7 +9779,7 @@
                   <angle value="90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-elbow1" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="(stk)-elbow1-r-compensator" group="(stk)-stretches">
                 <param name="amount">
                   <vector>
                     <x>1.2503561974</x>
@@ -9872,7 +9793,7 @@
                   </vector>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="elbow1" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="elbow1">
                 <param name="amount">
                   <composite type="vector" x=":(stk)-elbow1-r">
                     <y>
@@ -10631,46 +10552,6 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-toe1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-toe1-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="toe1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-toe1-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
               <layer type="rotate" active="true" version="0.1">
                 <param name="origin">
                   <greyed type="vector">
@@ -11377,46 +11258,6 @@
                 </param>
                 <param name="amount">
                   <angle value="180.000000"/>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-toe2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-toe2-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="toe2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-toe2-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
                 </param>
               </layer>
               <layer type="rotate" active="true" version="0.1">
@@ -12582,52 +12423,6 @@
                 </param>
                 <param name="amount">
                   <angle value="-90.000000"/>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-foot1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real">
-                        <link>
-                          <vectorlength type="real" vector=":(stk)-hip1-transp"/>
-                        </link>
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="foot1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <vectorlength type="real" vector=":(stk)-hip1-transp"/>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
                 </param>
               </layer>
               <layer type="rotate" active="true" version="0.1">
@@ -14540,7 +14335,7 @@
                   <angle value="-90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-knee1" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="(stk)-knee1-r-compensator" group="(stk)-stretches">
                 <param name="amount">
                   <vector>
                     <x>1.5824198723</x>
@@ -14554,7 +14349,7 @@
                   </vector>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="knee1" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="knee1">
                 <param name="amount">
                   <composite type="vector" x=":(stk)-knee1-r">
                     <y>
@@ -15874,12 +15669,26 @@
                   <angle value="-90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-foot1" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="(stk)-hip1-transp-compensator" group="(stk)-stretches">
                 <param name="amount">
-                  <vector>
-                    <x>1.0164178610</x>
-                    <y>1.0000000000</y>
-                  </vector>
+                  <composite type="vector">
+                    <x>
+                      <reciprocal type="real">
+                        <link>
+                          <vectorlength type="real" vector=":(stk)-hip1-transp"/>
+                        </link>
+                        <epsilon>
+                          <real value="0.0000010000"/>
+                        </epsilon>
+                        <infinite>
+                          <real value="999999.0000000000"/>
+                        </infinite>
+                      </reciprocal>
+                    </x>
+                    <y>
+                      <real value="1.0000000000"/>
+                    </y>
+                  </composite>
                 </param>
                 <param name="center">
                   <vector>
@@ -15888,7 +15697,7 @@
                   </vector>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="foot1" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="hip1">
                 <param name="amount">
                   <composite type="vector">
                     <x>
@@ -17048,52 +16857,6 @@
                 </param>
                 <param name="amount">
                   <angle value="-90.000000"/>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-foot2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real">
-                        <link>
-                          <vectorlength type="real" vector=":(stk)-hip2-transp"/>
-                        </link>
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="foot2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <vectorlength type="real" vector=":(stk)-hip2-transp"/>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
                 </param>
               </layer>
               <layer type="rotate" active="true" version="0.1">
@@ -19045,7 +18808,7 @@
                   <angle value="-90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-knee2" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="(stk)-knee2-r-compensator" group="(stk)-stretches">
                 <param name="amount">
                   <vector>
                     <x>1.5164710283</x>
@@ -19059,7 +18822,7 @@
                   </vector>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="knee2" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="knee2">
                 <param name="amount">
                   <composite type="vector" x=":(stk)-knee2-r">
                     <y>
@@ -20379,10 +20142,10 @@
                   <angle value="-90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-foot2" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="(stk)-hip2-transp-compensator" group="(stk)-stretches">
                 <param name="amount">
                   <vector>
-                    <x>1.0353690386</x>
+                    <x>1.0693671703</x>
                     <y>1.0000000000</y>
                   </vector>
                 </param>
@@ -20393,7 +20156,7 @@
                   </vector>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="foot2" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="hip2">
                 <param name="amount">
                   <composite type="vector">
                     <x>
@@ -33018,46 +32781,6 @@
                   <angle value="-90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-body" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-body-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="body" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-body-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
               <layer type="rotate" active="true" version="0.1">
                 <param name="origin">
                   <greyed type="vector">
@@ -34999,63 +34722,6 @@
                   <angle value="-90.000000"/>
                 </param>
               </layer>
-              <layer type="zoom" active="true" version="0.1" desc="compensator-head" group="(stk)-stretches">
-                <param name="amount">
-                  <scale type="real">
-                    <link>
-                      <logarithm type="real" guid="08F84E68F19EC2EC3DB7557C469B0381">
-                        <link>
-                          <scale type="real" link=":(stk)-head-r">
-                            <scalar>
-                              <real value="0.9657341500"/>
-                            </scalar>
-                          </scale>
-                        </link>
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </logarithm>
-                    </link>
-                    <scalar>
-                      <real value="-1.0000000000"/>
-                    </scalar>
-                  </scale>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="zoom" active="true" version="0.1" desc="head" group="(stk)-stretches">
-                <param name="amount">
-                  <logarithm type="real" guid="08F84E68F19EC2EC3DB7557C469B0381">
-                    <link>
-                      <scale type="real" link=":(stk)-head-r">
-                        <scalar>
-                          <real value="0.9657341500"/>
-                        </scalar>
-                      </scale>
-                    </link>
-                    <epsilon>
-                      <real value="0.0000010000"/>
-                    </epsilon>
-                    <infinite>
-                      <real value="999999.0000000000"/>
-                    </infinite>
-                  </logarithm>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
               <layer type="rotate" active="true" version="0.1">
                 <param name="origin">
                   <vector>
@@ -35710,46 +35376,6 @@
                 </param>
                 <param name="amount">
                   <angle value="180.000000"/>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-palm2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-palm2-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="palm2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-palm2-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
                 </param>
               </layer>
               <layer type="rotate" active="true" version="0.1">
@@ -37147,7 +36773,7 @@
                   <angle value="90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-wrist2" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="(stk)-wrist2-r-compensator" group="(stk)-stretches">
                 <param name="amount">
                   <vector>
                     <x>1.3426685333</x>
@@ -37161,7 +36787,7 @@
                   </vector>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="wrist2" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="wrist2">
                 <param name="amount">
                   <composite type="vector" x=":(stk)-wrist2-r">
                     <y>
@@ -38318,46 +37944,6 @@
                   <angle value="90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-wrist2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-wrist2-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="wrist2" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-wrist2-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
               <layer type="rotate" active="true" version="0.1">
                 <param name="origin">
                   <greyed type="vector">
@@ -39122,46 +38708,6 @@
                 </param>
                 <param name="outline_grow">
                   <real value="0.0000000000"/>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-palm1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-palm1-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="palm1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-palm1-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
                 </param>
               </layer>
               <layer type="rotate" active="true" version="0.1">
@@ -40559,7 +40105,7 @@
                   <angle value="90.000000"/>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-wrist1" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="(stk)-wrist1-r-compensator" group="(stk)-stretches">
                 <param name="amount">
                   <composite type="vector">
                     <x>
@@ -40584,7 +40130,7 @@
                   </vector>
                 </param>
               </layer>
-              <layer type="stretch" active="true" version="0.1" desc="wrist1" group="(stk)-stretches">
+              <layer type="stretch" active="true" version="0.1" desc="wrist1">
                 <param name="amount">
                   <composite type="vector" x=":(stk)-wrist1-r">
                     <y>
@@ -41774,46 +41320,6 @@
                 </param>
                 <param name="amount">
                   <angle value="90.000000"/>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="compensator-wrist1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector">
-                    <x>
-                      <reciprocal type="real" link=":(stk)-wrist1-r">
-                        <epsilon>
-                          <real value="0.0000010000"/>
-                        </epsilon>
-                        <infinite>
-                          <real value="999999.0000000000"/>
-                        </infinite>
-                      </reciprocal>
-                    </x>
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
-              </layer>
-              <layer type="stretch" active="true" version="0.1" desc="wrist1" group="(stk)-stretches">
-                <param name="amount">
-                  <composite type="vector" x=":(stk)-wrist1-r">
-                    <y>
-                      <real value="1.0000000000"/>
-                    </y>
-                  </composite>
-                </param>
-                <param name="center">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
                 </param>
               </layer>
               <layer type="rotate" active="true" version="0.1">
