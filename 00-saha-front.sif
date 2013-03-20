@@ -858,7 +858,7 @@
                 <bool value="true"/>
               </param>
             </layer>
-            <layer type="star" active="true" version="0.1" desc="Star006">
+            <layer type="star" active="true" version="0.1" desc="controller">
               <param name="z_depth">
                 <real value="0.0000000000"/>
               </param>
@@ -10335,7 +10335,7 @@
                         <angle value="-6.964426"/>
                       </param>
                     </layer>
-                    <layer type="PasteCanvas" active="true" version="0.1" desc="widget">
+                    <layer type="PasteCanvas" active="true" version="0.1" desc="widget-foot">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -10422,7 +10422,7 @@
                               <bool value="false"/>
                             </param>
                           </layer>
-                          <layer type="star" active="true" version="0.1" desc="Star006">
+                          <layer type="star" active="true" version="0.1" desc="controller">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -11046,7 +11046,7 @@
                         <angle value="-6.964426"/>
                       </param>
                     </layer>
-                    <layer type="PasteCanvas" active="true" version="0.1" desc="widget">
+                    <layer type="PasteCanvas" active="true" version="0.1" desc="widget-foot">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -11133,7 +11133,7 @@
                               <bool value="false"/>
                             </param>
                           </layer>
-                          <layer type="star" active="true" version="0.1" desc="Star006">
+                          <layer type="star" active="true" version="0.1" desc="controller">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -34277,7 +34277,7 @@
                               <bool value="true"/>
                             </param>
                           </layer>
-                          <layer type="star" active="true" version="0.1" desc="Star006">
+                          <layer type="star" active="true" version="0.1" desc="controller">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -34576,7 +34576,7 @@
                               <bool value="true"/>
                             </param>
                           </layer>
-                          <layer type="star" active="true" version="0.1" desc="Star006">
+                          <layer type="star" active="true" version="0.1" desc="controller">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -35153,7 +35153,7 @@
                       </param>
                       <param name="color" use=":c-skin"/>
                     </layer>
-                    <layer type="PasteCanvas" active="true" version="0.1" desc="widget">
+                    <layer type="PasteCanvas" active="true" version="0.1" desc="widget-hand">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -35240,7 +35240,7 @@
                               <bool value="false"/>
                             </param>
                           </layer>
-                          <layer type="star" active="true" version="0.1" desc="Star006">
+                          <layer type="star" active="true" version="0.1" desc="controller">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -38496,7 +38496,7 @@
                         </vector>
                       </param>
                     </layer>
-                    <layer type="PasteCanvas" active="true" version="0.1" desc="widget">
+                    <layer type="PasteCanvas" active="true" version="0.1" desc="widget-hand">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -38583,7 +38583,7 @@
                               <bool value="false"/>
                             </param>
                           </layer>
-                          <layer type="star" active="true" version="0.1" desc="Star006">
+                          <layer type="star" active="true" version="0.1" desc="controller">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
