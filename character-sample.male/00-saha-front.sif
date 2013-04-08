@@ -8,7 +8,7 @@
   <meta name="guide_show" content="1"/>
   <meta name="guide_snap" content="0"/>
   <meta name="onion_skin" content="0"/>
-  <keyframe time="0f"/>
+  <keyframe time="0f" active="true"/>
   <defs>
     <real value="1.2837814393" id="(stk)-body-r"/>
     <angle value="91.985031" id="(stk)-body-t"/>
@@ -261,14 +261,10 @@
     <real value="0.0823047534" id="(stk)-switch-foot-r"/>
     <real value="0.5696650743" id="(stk)-switch-foot-l"/>
     <real value="0.1203031167" id="(stk)-switch-eyes"/>
-    <animated type="real" id="(stk)-switch-head-turn" guid="BFAA9E034B5CB0357269880E19A56DD8">
-      <waypoint time="0s" before="constant" after="constant">
-        <real value="-3.6503827572"/>
-      </waypoint>
-    </animated>
     <string id="(stk)-version">1</string>
+    <real value="-3.6503827572" id="(stk)-switch-head-turn"/>
     <canvas id="mimic" bgcolor="0.500000 0.500000 0.500000 1.000000">
-      <keyframe time="0f"/>
+      <keyframe time="0f" active="true"/>
       <defs>
         <vector id="test">
           <x>-3.0166666508</x>
