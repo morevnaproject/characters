@@ -52,7 +52,8 @@ def process(filename):
 					el_type=re.findall(r'<(.*?) .*', line)
 				el_type=el_type[0]
 				exports[el_name]=el_type
-				if el_name=='(stk)-version':
+				match=re.findall(r'\(stk.*\)-version', el_name)
+				if len(match)!=0:
 					version=re.findall(r'>(.*?)</string>', line)[0]
 					print "Skeleton version: %s" % version
 		elif "<defs>" in line:
