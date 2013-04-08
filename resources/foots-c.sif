@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="15s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 2</name>
   <keyframe time="0f"/>
@@ -22,7 +22,7 @@
       </scalar>
     </scale>
   </defs>
-  <layer type="PasteCanvas" active="true" version="0.1" desc="Switch">
+  <layer type="PasteCanvas" active="true" version="0.1" desc="switch">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -65,7 +65,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17477 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17477 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -559,7 +559,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="false" version="0.1" desc="NewBLine14980 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+              <layer type="region" active="false" version="0.1" desc="NewBLine14980 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -954,7 +954,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17477 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17477 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -1434,7 +1434,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine14979 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+              <layer type="region" active="true" version="0.1" desc="NewBLine14979 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>

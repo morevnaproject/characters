@@ -27504,7 +27504,15 @@
       <real value="0.5000000000"/>
     </param>
   </layer>
-  <layer type="PasteCanvas" active="true" version="0.1" desc="kf-marks">
+  <layer type="translate" active="true" version="0.1">
+    <param name="origin">
+      <vector>
+        <x>-0.4533333480</x>
+        <y>-0.2136498541</y>
+      </vector>
+    </param>
+  </layer>
+  <layer type="PasteCanvas" active="false" version="0.1" desc="kf-marks">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -27890,14 +27898,6 @@
     </param>
     <param name="outline_grow">
       <real value="0.0000000000"/>
-    </param>
-  </layer>
-  <layer type="translate" active="true" version="0.1">
-    <param name="origin">
-      <vector>
-        <x>-0.4533333480</x>
-        <y>-0.2136498541</y>
-      </vector>
     </param>
   </layer>
 </canvas>

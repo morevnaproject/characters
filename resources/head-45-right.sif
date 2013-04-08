@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 1</name>
-  <keyframe time="0f" active="true">neutral</keyframe>
-  <keyframe time="12f" active="true">happy</keyframe>
-  <keyframe time="1s" active="true">sad</keyframe>
-  <keyframe time="1s 12f" active="true">m,p,b</keyframe>
-  <keyframe time="2s" active="true">n,l,t,d,r,c</keyframe>
-  <keyframe time="2s 12f" active="true">f,v</keyframe>
-  <keyframe time="3s" active="true">g,k</keyframe>
-  <keyframe time="3s 12f" active="true">zh,sh,ch,j</keyframe>
-  <keyframe time="4s" active="true">y,oy,w,er</keyframe>
-  <keyframe time="4s 12f" active="true">eh,h,s,z</keyframe>
-  <keyframe time="5s" active="true">aa,ad,ar</keyframe>
-  <keyframe time="5s 12f" active="true">iy,ie</keyframe>
-  <keyframe time="6s" active="true">th,dh</keyframe>
+  <keyframe time="0f">neutral</keyframe>
+  <keyframe time="12f">happy</keyframe>
+  <keyframe time="1s">sad</keyframe>
+  <keyframe time="1s 12f">m,p,b</keyframe>
+  <keyframe time="2s">n,l,t,d,r,c</keyframe>
+  <keyframe time="2s 12f">f,v</keyframe>
+  <keyframe time="3s">g,k</keyframe>
+  <keyframe time="3s 12f">zh,sh,ch,j</keyframe>
+  <keyframe time="4s">y,oy,w,er</keyframe>
+  <keyframe time="4s 12f">eh,h,s,z</keyframe>
+  <keyframe time="5s">aa,ad,ar</keyframe>
+  <keyframe time="5s 12f">iy,ie</keyframe>
+  <keyframe time="6s">th,dh</keyframe>
   <defs>
     <integer value="1" static="true" id="(stk)-lang"/>
   </defs>
@@ -67,7 +67,7 @@
       </vector>
     </param>
   </layer>
-  <layer type="PasteCanvas" active="true" version="0.1" desc="kf-marks">
+  <layer type="PasteCanvas" active="false" version="0.1" desc="kf-marks">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
