@@ -7,12 +7,12 @@
   <meta name="guide_show" content="1"/>
   <meta name="guide_snap" content="0"/>
   <meta name="onion_skin" content="0"/>
-  <keyframe time="0f">open</keyframe>
-  <keyframe time="12f">closed</keyframe>
-  <keyframe time="1s">left</keyframe>
-  <keyframe time="1s 12f">right</keyframe>
-  <keyframe time="2s">up</keyframe>
-  <keyframe time="2s 12f">down</keyframe>
+  <keyframe time="0f" active="true">open</keyframe>
+  <keyframe time="12f" active="true">closed</keyframe>
+  <keyframe time="1s" active="true">left</keyframe>
+  <keyframe time="1s 12f" active="true">right</keyframe>
+  <keyframe time="2s" active="true">up</keyframe>
+  <keyframe time="2s 12f" active="true">down</keyframe>
   <layer type="region" active="true" version="0.1" desc="BLine2156 Region">
     <param name="z_depth">
       <real value="0.0000000000"/>
@@ -4119,8 +4119,8 @@
   <layer type="translate" active="true" version="0.1">
     <param name="origin">
       <vector>
-        <x>-0.4533333480</x>
-        <y>-0.2136498541</y>
+        <x>-0.1830553114</x>
+        <y>-0.0615655594</y>
       </vector>
     </param>
   </layer>

@@ -7,4 +7,54 @@
   <keyframe time="1s 12f" active="true">right</keyframe>
   <keyframe time="2s" active="true">up</keyframe>
   <keyframe time="2s 12f" active="true">down</keyframe>
+  <layer type="PasteCanvas" active="true" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="canvas" use="head-90-left-eyes.sif#"/>
+    <param name="zoom">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="true"/>
+    </param>
+    <param name="focus">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="stretch" active="true" version="0.1">
+    <param name="amount">
+      <vector>
+        <x>-1.0000000000</x>
+        <y>1.0000000000</y>
+      </vector>
+    </param>
+    <param name="center">
+      <vector>
+        <x>0.0746504590</x>
+        <y>-0.0020801909</y>
+      </vector>
+    </param>
+  </layer>
 </canvas>
