@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="20s 20f" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 2</name>
   <meta name="grid_show" content="0"/>
@@ -8,32 +8,31 @@
   <meta name="guide_snap" content="0"/>
   <meta name="guide_y" content="0,564523"/>
   <meta name="onion_skin" content="0"/>
-  <keyframe time="0f">0</keyframe>
-  <keyframe time="12f">1</keyframe>
-  <keyframe time="1s">2</keyframe>
-  <keyframe time="1s 12f">3</keyframe>
-  <keyframe time="2s">4</keyframe>
-  <keyframe time="2s 12f">5</keyframe>
-  <keyframe time="3s">6</keyframe>
-  <keyframe time="3s 12f">7</keyframe>
-  <keyframe time="4s">8</keyframe>
-  <keyframe time="4s 12f">9</keyframe>
-  <keyframe time="5s">10</keyframe>
-  <keyframe time="5s 12f"/>
-  <keyframe time="6s"/>
-  <keyframe time="6s 12f">13</keyframe>
-  <keyframe time="7s">14</keyframe>
-  <keyframe time="7s 12f">15</keyframe>
-  <keyframe time="8s">16</keyframe>
-  <keyframe time="8s 12f">17</keyframe>
-  <keyframe time="9s">18</keyframe>
-  <keyframe time="9s 12f">19</keyframe>
-  <keyframe time="10s">20</keyframe>
-  <keyframe time="10s 12f">21</keyframe>
-  <keyframe time="11s">22</keyframe>
-  <keyframe time="11s 12f">23</keyframe>
-  <keyframe time="12s"/>
-  <keyframe time="12s 12f"/>
+  <keyframe time="0f" active="true">0</keyframe>
+  <keyframe time="12f" active="true">1</keyframe>
+  <keyframe time="1s" active="true">2</keyframe>
+  <keyframe time="1s 12f" active="true">3</keyframe>
+  <keyframe time="2s" active="true">4</keyframe>
+  <keyframe time="2s 12f" active="true">5</keyframe>
+  <keyframe time="3s" active="true">6</keyframe>
+  <keyframe time="3s 12f" active="true">7</keyframe>
+  <keyframe time="4s" active="true">8</keyframe>
+  <keyframe time="4s 12f" active="true">9</keyframe>
+  <keyframe time="5s" active="true">10</keyframe>
+  <keyframe time="5s 12f" active="true"/>
+  <keyframe time="6s" active="true"/>
+  <keyframe time="6s 12f" active="true">13</keyframe>
+  <keyframe time="7s" active="true">14</keyframe>
+  <keyframe time="7s 12f" active="true">15</keyframe>
+  <keyframe time="8s" active="true">16</keyframe>
+  <keyframe time="8s 12f" active="true">17</keyframe>
+  <keyframe time="9s" active="true">18</keyframe>
+  <keyframe time="9s 12f" active="true">19</keyframe>
+  <keyframe time="10s" active="true">20</keyframe>
+  <keyframe time="10s 12f" active="true">21</keyframe>
+  <keyframe time="11s" active="true">22</keyframe>
+  <keyframe time="11s 12f" active="true">23</keyframe>
+  <keyframe time="12s" active="true"/>
   <defs>
     <scale type="real" id="time-switcher" guid="471F15C8D31205CB85CCC4F11BE18695">
       <link>
@@ -73,7 +72,7 @@
           <param name="z_depth">
             <range type="real" link=":time-switcher">
               <min>
-                <real value="-25.0000000000"/>
+                <real value="-24.0000000000"/>
               </min>
               <max>
                 <real value="0.0000000000"/>
@@ -94,7 +93,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17043 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17043 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -801,7 +800,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17044 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17044 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -944,7 +943,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17043 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17043 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -1672,7 +1671,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17047 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17047 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -2345,7 +2344,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17046 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17046 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -2527,7 +2526,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17045 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17045 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -2920,7 +2919,7 @@
           <param name="z_depth">
             <range type="real" link=":time-switcher">
               <min>
-                <real value="-24.0000000000"/>
+                <real value="-23.0000000000"/>
               </min>
               <max>
                 <real value="0.0000000000"/>
@@ -2941,7 +2940,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17038 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17038 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -3726,7 +3725,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17039 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17039 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -3908,7 +3907,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17040 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17040 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -4090,7 +4089,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17041 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17041 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -4272,7 +4271,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17038 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17038 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -5111,7 +5110,7 @@
           <param name="z_depth">
             <range type="real" link=":time-switcher">
               <min>
-                <real value="-23.0000000000"/>
+                <real value="-22.0000000000"/>
               </min>
               <max>
                 <real value="0.0000000000"/>
@@ -5132,7 +5131,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17035 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17035 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -6229,7 +6228,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17036 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17036 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -6411,7 +6410,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17037 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17037 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -6593,7 +6592,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17035 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17035 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -7755,7 +7754,7 @@
           <param name="z_depth">
             <range type="real" link=":time-switcher">
               <min>
-                <real value="-22.0000000000"/>
+                <real value="-21.0000000000"/>
               </min>
               <max>
                 <real value="0.0000000000"/>
@@ -7776,7 +7775,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17031 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17031 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -8405,7 +8404,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17031 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17031 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -9055,7 +9054,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17032 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17032 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -9255,7 +9254,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17032 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17032 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -9476,7 +9475,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17034 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17034 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -9715,7 +9714,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17034 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17034 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -9975,7 +9974,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17033 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17033 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -10331,7 +10330,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17033 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17033 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -10798,7 +10797,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine17021 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine17021 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -11661,7 +11660,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17022 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17022 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -11843,7 +11842,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17023 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17023 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -11986,7 +11985,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17021 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17021 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -12870,7 +12869,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17028 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17028 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -13013,7 +13012,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17029 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17029 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -13156,7 +13155,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17026 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17026 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -13338,7 +13337,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17027 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17027 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -13481,7 +13480,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17024 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17024 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -13702,7 +13701,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine17025 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine17025 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -13910,7 +13909,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16993 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16993 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -14908,7 +14907,7 @@
                 </param>
                 <param name="canvas">
                   <canvas>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17017 Область">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17017 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -15108,7 +15107,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17018 Область">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17018 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -15308,7 +15307,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17019 Область">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17019 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -15508,7 +15507,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17020 Область">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17020 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -15690,7 +15689,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="region" active="false" version="0.1" desc="NewBLine17007 Область">
+              <layer type="region" active="false" version="0.1" desc="NewBLine17007 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -16537,7 +16536,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine16999 Контур">
+                    <layer type="outline" active="true" version="0.2" desc="NewBLine16999 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -16880,7 +16879,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine17000 Контур">
+                    <layer type="outline" active="true" version="0.2" desc="NewBLine17000 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -17223,7 +17222,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine17001 Контур">
+                    <layer type="outline" active="true" version="0.2" desc="NewBLine17001 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -17566,7 +17565,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine17002 Контур">
+                    <layer type="outline" active="true" version="0.2" desc="NewBLine17002 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -17787,7 +17786,7 @@
                 </param>
                 <param name="canvas">
                   <canvas>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine17009 Контур">
+                    <layer type="outline" active="true" version="0.2" desc="NewBLine17009 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -17930,7 +17929,7 @@
                         <bool value="true"/>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine17010 Контур">
+                    <layer type="outline" active="true" version="0.2" desc="NewBLine17010 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -18073,7 +18072,7 @@
                         <bool value="true"/>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine17011 Контур">
+                    <layer type="outline" active="true" version="0.2" desc="NewBLine17011 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -18216,7 +18215,7 @@
                         <bool value="true"/>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine17012 Контур">
+                    <layer type="outline" active="true" version="0.2" desc="NewBLine17012 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -18380,7 +18379,7 @@
                   <real value="-0.1500000000"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16994 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16994 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -18523,7 +18522,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16995 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16995 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -18705,7 +18704,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16996 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16996 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -18887,7 +18886,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16997 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16997 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -19030,7 +19029,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16993 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16993 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -20031,7 +20030,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16998 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16998 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -20239,7 +20238,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16992 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16992 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -20478,7 +20477,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16992 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16992 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -20738,7 +20737,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16987 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16987 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -21406,7 +21405,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16989 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16989 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -21588,7 +21587,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16990 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16990 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -21809,7 +21808,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16991 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16991 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -21991,7 +21990,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16987Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16987&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -22814,7 +22813,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16573 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16573 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -23014,7 +23013,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16549 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16549 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -23292,7 +23291,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16549Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16549&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -23668,7 +23667,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16550 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16550 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -23985,7 +23984,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16550Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16550&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -24400,7 +24399,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16548 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16548 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -24639,7 +24638,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16548Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16548&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -24976,7 +24975,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16547 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16547 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -25215,7 +25214,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16547Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16547&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -25552,7 +25551,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16546 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16546 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -26025,7 +26024,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16546Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16546&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -27427,7 +27426,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16265 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16265 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -27648,7 +27647,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16266 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16266 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -27830,7 +27829,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16267 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16267 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -28012,7 +28011,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16268 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16268 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -28155,7 +28154,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16264Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16264&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -29902,7 +29901,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16265 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16265 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -30123,7 +30122,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16266 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16266 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -30305,7 +30304,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16267 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16267 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -30487,7 +30486,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16268 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16268 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -30630,7 +30629,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16264Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16264&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -31570,7 +31569,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16258 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16258 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -32004,7 +32003,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16258Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16258&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -32536,7 +32535,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16259 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16259 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -33165,7 +33164,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16259Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16259&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -33892,7 +33891,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -34112,7 +34111,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -34332,7 +34331,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -34552,7 +34551,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -34772,7 +34771,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -34992,7 +34991,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -35212,7 +35211,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -35432,7 +35431,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16261&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -35652,7 +35651,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16260Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16260&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -35872,7 +35871,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16262Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16262&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -36494,7 +36493,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16238 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine16238 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -37162,7 +37161,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="false" version="0.1" desc="NewBLine16246 Область">
+              <layer type="region" active="false" version="0.1" desc="NewBLine16246 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -37596,7 +37595,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16239 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16239 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -37778,7 +37777,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16241 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16241 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -37960,7 +37959,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16243 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16243 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -38142,7 +38141,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16244 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16244 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -38285,7 +38284,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16245 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16245 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -38428,7 +38427,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16242 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16242 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -38571,7 +38570,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16240 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16240 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -38714,7 +38713,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16238 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine16238 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -39449,7 +39448,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine2019 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine2019 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -40390,7 +40389,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine2042 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine2042 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -40629,7 +40628,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2019Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2019&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -41714,7 +41713,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine2019 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine2019 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -42772,7 +42771,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine2042 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine2042 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -43011,7 +43010,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2019Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2019&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -44213,7 +44212,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine15880 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine15880 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -44413,7 +44412,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine15881 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine15881 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -44613,7 +44612,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15880Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15880&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -44911,7 +44910,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine15879 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine15879 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -45540,7 +45539,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15879Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15879&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -46285,7 +46284,7 @@
                 </param>
                 <param name="canvas">
                   <canvas>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15882Расширенный контур">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15882&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -46505,7 +46504,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15883Расширенный контур">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15883&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -46725,7 +46724,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15884Расширенный контур">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15884&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -49886,7 +49885,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine1241 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine1241 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -51139,7 +51138,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine1271 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine1271 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -51495,7 +51494,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine1241 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine1241 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -52815,7 +52814,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine1813 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine1813 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -53717,7 +53716,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1813Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1813&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -54763,7 +54762,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine1918 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine1918 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -55704,7 +55703,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="false" version="0.1" desc="NewBLine1941 Область">
+              <layer type="region" active="false" version="0.1" desc="NewBLine1941 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -55982,7 +55981,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1918Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1918&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -57067,7 +57066,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine2074 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine2074 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -58086,7 +58085,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2076Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2076&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -58306,7 +58305,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine2075 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine2075 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -58428,7 +58427,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2075Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2075&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -58648,7 +58647,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2074Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine2074&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -59811,7 +59810,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine1816 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine1816 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -60401,7 +60400,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine1836 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine1836 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -60913,7 +60912,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1816Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1816&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -61601,7 +61600,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1817Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1817&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -61860,7 +61859,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1818Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1818&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -62275,7 +62274,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1819Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine1819&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -62619,7 +62618,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine14975 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine14975 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -63716,7 +63715,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="false" version="0.1" desc="NewBLine14989 Область">
+              <layer type="region" active="false" version="0.1" desc="NewBLine14989 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -64111,7 +64110,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14975Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14975&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -65352,7 +65351,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine2175 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine2175 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -66911,7 +66910,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine1416 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine1416 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -67735,7 +67734,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine1443 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine1443 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -68247,7 +68246,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine1416 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine1416 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -69092,7 +69091,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine1417 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine1417 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -69313,7 +69312,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine1418 Контур">
+              <layer type="outline" active="true" version="0.2" desc="NewBLine1418 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -69736,7 +69735,7 @@
           </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine14975 Область">
+              <layer type="region" active="true" version="0.1" desc="NewBLine14975 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -70833,7 +70832,7 @@
                   </bline>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14975Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14975&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -72028,7 +72027,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15352Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine15352&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -72248,7 +72247,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14976Расширенный контур">
+              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14976&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
