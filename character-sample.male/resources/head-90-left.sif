@@ -25649,7 +25649,7 @@
                       </composite>
                     </entry>
                     <entry>
-                      <composite type="bline_point" guid="112EE166D0A5459E4888C3C7C6B1C61F">
+                      <composite type="bline_point">
                         <point>
                           <vector>
                             <x>-0.3117368519</x>
@@ -25688,7 +25688,7 @@
                       </composite>
                     </entry>
                     <entry>
-                      <composite type="bline_point" guid="F694A43E224F66017B027568F19E7252">
+                      <composite type="bline_point">
                         <point>
                           <vector>
                             <x>0.0906435624</x>
@@ -25727,7 +25727,7 @@
                       </composite>
                     </entry>
                     <entry>
-                      <composite type="bline_point" guid="2A4C016183339AEB1A10862D72CA4C61">
+                      <composite type="bline_point">
                         <point>
                           <vector>
                             <x>0.3891838789</x>
@@ -27885,7 +27885,7 @@
                 <param name="text">
                   <animated type="string">
                     <waypoint time="0s" before="constant" after="constant">
-                      <string></string>
+                      <string> </string>
                     </waypoint>
                     <waypoint time="0.5s" before="constant" after="constant">
                       <string>:)</string>

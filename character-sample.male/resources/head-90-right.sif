@@ -305,7 +305,7 @@
                 <param name="text">
                   <animated type="string">
                     <waypoint time="0s" before="constant" after="constant">
-                      <string></string>
+                      <string guid="6CA12820D8474EC50217F7699EC7D3D6"> </string>
                     </waypoint>
                     <waypoint time="0.5s" before="constant" after="constant">
                       <string>:)</string>

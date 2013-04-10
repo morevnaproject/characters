@@ -8,16 +8,16 @@
   <meta name="guide_snap" content="0"/>
   <meta name="guide_y" content="1,501638"/>
   <meta name="onion_skin" content="0"/>
-  <keyframe time="0f"/>
-  <keyframe time="1s">&#x41C;,&#x41F;,&#x411; (m,p,b,)</keyframe>
-  <keyframe time="2s">&#x41D;,&#x41B;,&#x422;,&#x414;,&#x420;,&#x426; (n,l,t,d,r,c)</keyframe>
-  <keyframe time="3s">&#x424;,&#x412; (f,v)</keyframe>
-  <keyframe time="4s">&#x413;,&#x41A; (g,k)</keyframe>
-  <keyframe time="5s">&#x436;,&#x449;,&#x447;,&#x448; {zh,sh,ch}</keyframe>
-  <keyframe time="6s">&#x423;, &#x41E; (&#x28A;,o)</keyframe>
-  <keyframe time="7s">&#x415;,&#x425;,&#x421;,&#x417; (&#xE6;,h,s,z)</keyframe>
-  <keyframe time="8s">&#x410; (&#x259;)</keyframe>
-  <keyframe time="9s">&#x438;,&#x44B; (i)</keyframe>
+  <keyframe time="0f" active="true"/>
+  <keyframe time="1s" active="true">&#x41C;,&#x41F;,&#x411; (m,p,b,)</keyframe>
+  <keyframe time="2s" active="true">&#x41D;,&#x41B;,&#x422;,&#x414;,&#x420;,&#x426; (n,l,t,d,r,c)</keyframe>
+  <keyframe time="3s" active="true">&#x424;,&#x412; (f,v)</keyframe>
+  <keyframe time="4s" active="true">&#x413;,&#x41A; (g,k)</keyframe>
+  <keyframe time="5s" active="true">&#x436;,&#x449;,&#x447;,&#x448; {zh,sh,ch}</keyframe>
+  <keyframe time="6s" active="true">&#x423;, &#x41E; (&#x28A;,o)</keyframe>
+  <keyframe time="7s" active="true">&#x415;,&#x425;,&#x421;,&#x417; (&#xE6;,h,s,z)</keyframe>
+  <keyframe time="8s" active="true">&#x410; (&#x259;)</keyframe>
+  <keyframe time="9s" active="true">&#x438;,&#x44B; (i)</keyframe>
   <defs>
     <integer value="1" static="true" id="(stk)-lang"/>
   </defs>
@@ -52957,7 +52957,7 @@
                 <param name="text">
                   <animated type="string">
                     <waypoint time="0s" before="constant" after="constant">
-                      <string></string>
+                      <string guid="60A26D55FDAB1B9D59DA66C765B650D7"> </string>
                     </waypoint>
                     <waypoint time="0.5s" before="constant" after="constant">
                       <string>:)</string>
