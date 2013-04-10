@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+  <name>Synfig Animation 3</name>
+  <layer type="SolidColor" active="true" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>1.000000</r>
+        <g>1.000000</g>
+        <b>1.000000</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+  </layer>
+  <layer type="checker_board" active="false" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>1.000000</r>
+        <g>1.000000</g>
+        <b>1.000000</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>-4.1666665077</x>
+        <y>-2.1666667461</y>
+      </vector>
+    </param>
+    <param name="size">
+      <vector>
+        <x>8.5000000000</x>
+        <y>0.2000000030</y>
+      </vector>
+    </param>
+  </layer>
+  <layer type="PasteCanvas" active="true" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="canvas">
+      <canvas>
+        <layer type="checker_board" active="true" version="0.1">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.427365</r>
+              <g>0.427365</g>
+              <b>0.427365</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.1916666627</x>
+              <y>0.4583333433</y>
+            </vector>
+          </param>
+          <param name="size">
+            <vector guid="C99DCF465F57872CAF399C0F0E15B2B3">
+              <x>0.2500000000</x>
+              <y>0.2500000000</y>
+            </vector>
+          </param>
+        </layer>
+        <layer type="checker_board" active="true" version="0.1">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="19"/>
+          </param>
+          <param name="color">
+            <color>
+              <r>1.000000</r>
+              <g>1.000000</g>
+              <b>1.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.2249999940</x>
+              <y>0.4583333433</y>
+            </vector>
+          </param>
+          <param name="size">
+            <vector guid="C99DCF465F57872CAF399C0F0E15B2B3">
+              <x>0.2500000000</x>
+              <y>0.2500000000</y>
+            </vector>
+          </param>
+        </layer>
+        <layer type="rectangle" active="true" version="0.2" desc="Rectangle083">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.999997</r>
+              <g>1.000000</g>
+              <b>0.670590</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="point1">
+            <vector>
+              <x>-4.4019742012</x>
+              <y>2.3399240971</y>
+            </vector>
+          </param>
+          <param name="point2">
+            <vector>
+              <x>-3.5499999523</x>
+              <y>-2.4000000954</y>
+            </vector>
+          </param>
+          <param name="expand">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="checker_board" active="true" version="0.1">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.163548</r>
+              <g>0.163548</g>
+              <b>0.163548</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-4.2750000954</x>
+              <y>0.4583333433</y>
+            </vector>
+          </param>
+          <param name="size">
+            <vector>
+              <x>8.5833330154</x>
+              <y>0.2500000000</y>
+            </vector>
+          </param>
+        </layer>
+      </canvas>
+    </param>
+    <param name="zoom">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="focus">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="PasteCanvas" active="true" version="0.1" desc="en">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="canvas">
+      <canvas>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>th,dh</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>1.2150219679</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>iy,ie</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.7122896910</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>aa,ad,ar</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.2054627985</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>eh,h,s,z</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-0.2926256955</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>y,oy,w,er</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-0.7950833440</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>zh,sh,ch,j</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-1.2931718826</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>g,k</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-1.7781527042</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>f,v</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-2.2937180996</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>n,l,t,d,r</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-2.7918064594</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>m, p, b</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-3.2898948193</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>en</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.1166666672</x>
+              <y>0.1166666672</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>1.0000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-3.6257274151</x>
+              <y>2.0809116364</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+      </canvas>
+    </param>
+    <param name="zoom">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="focus">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+  <layer type="PasteCanvas" active="true" version="0.1" desc="ru">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="canvas">
+      <canvas>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>th</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>1.2083628178</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>и,ы</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.7165595293</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>а</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>0.2097326517</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>е,х,с,з</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-0.2883558273</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>у,о</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-0.7908135056</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>ж,ш,ч,щ</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-1.2889020443</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>г,к</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-1.7738828659</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>ф,в</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-2.2894482613</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>н,л,т,д,р,ц</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="0.8000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-2.7875366211</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>м, п, б</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.0500000007</x>
+              <y>0.0500000007</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>0.5000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-3.2856249809</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+        <layer type="text" active="true" version="0.2" desc="Text053">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0"/>
+          </param>
+          <param name="text">
+            <string>ru</string>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.000000</r>
+              <g>0.000000</g>
+              <b>0.000000</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="family">
+            <string>Sans Serif</string>
+          </param>
+          <param name="style">
+            <integer value="0"/>
+          </param>
+          <param name="weight">
+            <integer value="400"/>
+          </param>
+          <param name="compress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="vcompress">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="size">
+            <vector>
+              <x>0.1166666672</x>
+              <y>0.1166666672</y>
+            </vector>
+          </param>
+          <param name="orient">
+            <vector>
+              <x>1.0000000000</x>
+              <y>0.5000000000</y>
+            </vector>
+          </param>
+          <param name="origin">
+            <vector>
+              <x>-3.6257274151</x>
+              <y>1.5755679607</y>
+            </vector>
+          </param>
+          <param name="use_kerning">
+            <bool value="true"/>
+          </param>
+          <param name="grid_fit">
+            <bool value="false"/>
+          </param>
+          <param name="invert">
+            <bool value="false"/>
+          </param>
+        </layer>
+      </canvas>
+    </param>
+    <param name="zoom">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="time_offset">
+      <time value="0s"/>
+    </param>
+    <param name="children_lock">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="focus">
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
+    </param>
+    <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+  </layer>
+</canvas>
