@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+<canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="8s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 1</name>
   <keyframe time="0f" active="true">neutral</keyframe>
   <keyframe time="12f" active="true">happy</keyframe>
@@ -84,7 +84,7 @@
       </vector>
     </param>
     <param name="canvas">
-      <canvas>
+      <canvas end-time="5s">
         <layer type="rectangle" active="true" version="0.2" desc="Rectangle082">
           <param name="z_depth">
             <real value="0.0000000000"/>
@@ -305,7 +305,7 @@
                 <param name="text">
                   <animated type="string">
                     <waypoint time="0s" before="constant" after="constant">
-                      <string guid="46FDBBD5643AB1132F20341BE0132D5D"> </string>
+                      <string> </string>
                     </waypoint>
                     <waypoint time="0.5s" before="constant" after="constant">
                       <string>:)</string>

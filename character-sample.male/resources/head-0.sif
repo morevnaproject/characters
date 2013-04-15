@@ -21,7 +21,7 @@
   <keyframe time="5s 12f" active="true">iy,ie</keyframe>
   <keyframe time="6s" active="true">th,dh</keyframe>
   <defs>
-    <integer value="1" static="true" id="(stk)-lang"/>
+    <integer value="0" static="true" id="(stk)-lang"/>
   </defs>
   <layer type="PasteCanvas" active="true" version="0.1" desc="front">
     <param name="z_depth">
@@ -37166,7 +37166,7 @@
                 <param name="text">
                   <animated type="string">
                     <waypoint time="0s" before="constant" after="constant">
-                      <string guid="81253B45A99584341CEE98CB5AADC789"> </string>
+                      <string> </string>
                     </waypoint>
                     <waypoint time="0.5s" before="constant" after="constant">
                       <string>:)</string>

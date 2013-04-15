@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+<canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="8s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 5</name>
   <meta name="grid_show" content="0"/>
   <meta name="grid_size" content="0.000000 0.000000"/>
@@ -40,7 +40,7 @@
       </vector>
     </param>
     <param name="canvas">
-      <canvas>
+      <canvas end-time="5s">
         <layer type="PasteCanvas" active="true" version="0.1">
           <param name="z_depth">
             <real value="0.0000000000"/>
@@ -27646,7 +27646,7 @@
       </vector>
     </param>
     <param name="canvas">
-      <canvas>
+      <canvas end-time="5s">
         <layer type="rectangle" active="true" version="0.2" desc="Rectangle082">
           <param name="z_depth">
             <real value="0.0000000000"/>

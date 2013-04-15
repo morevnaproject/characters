@@ -7,7 +7,6 @@
   <meta name="grid_snap" content="0"/>
   <meta name="guide_show" content="1"/>
   <meta name="guide_snap" content="0"/>
-  <meta name="guide_x" content="0.085029"/>
   <meta name="onion_skin" content="0"/>
   <keyframe time="0f" active="true"/>
   <defs>
@@ -53,8 +52,8 @@
     <angle value="-205.362793" id="(stk)-elbow2-t"/>
     <real value="0.7108952272" id="(stk)-wrist2-r"/>
     <angle value="-2.321934" id="(stk)-wrist2-t"/>
-    <real value="0.3765994688" id="(stk)-palm2-r"/>
-    <angle value="19.655510" id="(stk)-palm2-t"/>
+    <real value="0.3507225325" id="(stk)-palm2-r"/>
+    <angle value="8.455659" id="(stk)-palm2-t"/>
     <real value="0.0000000000" id="(stk)-stickman-amount"/>
     <real value="0.8239253900" id="(stk)-knee1-r"/>
     <angle value="-270.000000" id="(stk)-knee1-t"/>
@@ -257,8 +256,8 @@
         <real value="0.7000000000"/>
       </link_on>
     </switch>
-    <real value="0.1431120932" id="(stk)-switch-palm-r"/>
-    <real value="4.6160855293" id="(stk)-switch-palm-l"/>
+    <real value="-0.0000000000" id="(stk)-switch-palm-r"/>
+    <real value="-0.4179823101" id="(stk)-switch-palm-l"/>
     <real value="0.0823047534" id="(stk)-switch-foot-r"/>
     <real value="0.5696650743" id="(stk)-switch-foot-l"/>
     <real value="0.0921520218" id="(stk)-switch-eyes"/>

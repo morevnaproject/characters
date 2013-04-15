@@ -32,7 +32,7 @@
   <keyframe time="10s 12f" active="true">21</keyframe>
   <keyframe time="11s" active="true">22</keyframe>
   <keyframe time="11s 12f" active="true">23</keyframe>
-  <keyframe time="12s" active="true"/>
+  <keyframe time="12s" active="true">24</keyframe>
   <defs>
     <scale type="real" id="time-switcher" guid="471F15C8D31205CB85CCC4F11BE18695">
       <link>

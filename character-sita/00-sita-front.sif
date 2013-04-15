@@ -10,7 +10,7 @@
   <meta name="onion_skin" content="0"/>
   <defs>
     <real value="-0.0028997711" id="(stk)-switch-palm-r"/>
-    <real value="-0.8248332739" id="(stk)-switch-palm-l"/>
+    <real value="-0.9204819798" id="(stk)-switch-palm-l"/>
     <real value="0.0823047534" id="(stk)-switch-foot-r"/>
     <real value="0.5696650743" id="(stk)-switch-foot-l"/>
     <string id="(stk)-version">1</string>
@@ -23,8 +23,8 @@
       <x>-0.4242305756</x>
       <y>-2.7589902878</y>
     </vector>
-    <real value="2.1811401225" id="(stk)-knee2-r"/>
-    <angle value="89.871475" id="(stk)-knee2-t"/>
+    <real value="2.0876161279" id="(stk)-knee2-r"/>
+    <angle value="91.231567" id="(stk)-knee2-t"/>
     <real value="0.4483423963" id="(stk)-hip2-r"/>
     <angle value="-631.302551" id="(stk)-hip2-t"/>
     <vector id="(stk)-heel1">
@@ -34,25 +34,25 @@
     <real value="2.8501805151" id="(stk)-hip1-r"/>
     <angle value="-2.432527" id="(stk)-hip1-t"/>
     <real value="0.2476500977" id="(stk)-toe1-r"/>
-    <angle value="59.340279" id="(stk)-wrist1-t"/>
+    <angle value="31.057915" id="(stk)-wrist1-t"/>
     <real value="0.4205184966" id="(stk)-palm1-r"/>
     <angle value="51.983192" id="(stk)-palm1-t"/>
     <vector id="(stk)-shoulder2">
       <x>-0.0860970467</x>
       <y>0.3703582585</y>
     </vector>
-    <real value="0.7612941015" id="(stk)-elbow2-r"/>
-    <angle value="-224.943115" id="(stk)-elbow2-t"/>
-    <real value="0.4193181197" id="(stk)-wrist2-r"/>
-    <angle value="-32.710258" id="(stk)-wrist2-t"/>
+    <real value="0.8317899353" id="(stk)-elbow2-r"/>
+    <angle value="-213.030563" id="(stk)-elbow2-t"/>
+    <real value="0.4327606872" id="(stk)-wrist2-r"/>
+    <angle value="-47.201092" id="(stk)-wrist2-t"/>
     <real value="0.3753378063" id="(stk)-palm2-r"/>
     <angle value="-1.925683" id="(stk)-palm2-t"/>
     <real value="0.3263429294" id="(stk)-knee1-r"/>
     <angle value="-273.576355" id="(stk)-knee1-t"/>
-    <real value="0.8233548281" id="(stk)-elbow1-r"/>
-    <angle value="-144.259048" id="(stk)-elbow1-t"/>
+    <real value="0.8279079857" id="(stk)-elbow1-r"/>
+    <angle value="-128.619324" id="(stk)-elbow1-t"/>
     <angle value="369.462341" id="(stk)-toe1-t"/>
-    <real value="0.4996982858" id="(stk)-wrist1-r"/>
+    <real value="0.5987111396" id="(stk)-wrist1-r"/>
     <angle value="-1.221642" id="(stk)-head-t"/>
     <real value="1.1416683881" id="(stk)-head-r"/>
     <real value="0.1007092223" id="(stk)-switch-eyes"/>
@@ -263,14 +263,14 @@
       </link_on>
     </switch>
     <canvas id="mimic" bgcolor="0.500000 0.500000 0.500000 1.000000">
-      <keyframe time="0f"/>
+      <keyframe time="0f" active="true"/>
       <defs>
         <vector id="test">
           <x>-3.0166666508</x>
           <y>0.8333333135</y>
         </vector>
         <integer value="1" static="true" id="(stk)-lang"/>
-        <real value="0.6318020821" id="(stk)-switch-mimic"/>
+        <real value="0.1942901313" id="(stk)-switch-mimic"/>
       </defs>
       <layer type="PasteCanvas" active="true" version="0.1" desc="mimic-switch">
         <param name="z_depth">
@@ -5185,99 +5185,6 @@
       </layer>
     </canvas>
   </defs>
-  <layer type="PasteCanvas" active="false" version="0.1">
-    <param name="z_depth">
-      <real value="0.0000000000"/>
-    </param>
-    <param name="amount">
-      <real value="1.0000000000"/>
-    </param>
-    <param name="blend_method">
-      <integer value="0"/>
-    </param>
-    <param name="origin">
-      <vector>
-        <x>0.0000000000</x>
-        <y>0.0000000000</y>
-      </vector>
-    </param>
-    <param name="canvas">
-      <canvas>
-        <layer type="import" active="true" version="0.1" desc="ref0003.jpg">
-          <param name="z_depth">
-            <real value="0.0000000000"/>
-          </param>
-          <param name="amount">
-            <real value="1.0000000000"/>
-          </param>
-          <param name="blend_method">
-            <integer value="0"/>
-          </param>
-          <param name="tl">
-            <vector>
-              <x>-4.0000000000</x>
-              <y>2.2500000000</y>
-            </vector>
-          </param>
-          <param name="br">
-            <vector>
-              <x>4.0000000000</x>
-              <y>-2.2500000000</y>
-            </vector>
-          </param>
-          <param name="c">
-            <integer value="1" static="true"/>
-          </param>
-          <param name="gamma_adjust">
-            <real value="1.0000000000"/>
-          </param>
-          <param name="filename">
-            <string>ref0003.jpg</string>
-          </param>
-          <param name="time_offset">
-            <time value="0s"/>
-          </param>
-        </layer>
-        <layer type="translate" active="true" version="0.1">
-          <param name="origin">
-            <vector>
-              <x>-0.2549195886</x>
-              <y>0.0822820663</y>
-            </vector>
-          </param>
-        </layer>
-        <layer type="zoom" active="true" version="0.1">
-          <param name="amount">
-            <real value="0.2000000000"/>
-          </param>
-          <param name="center">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
-        </layer>
-      </canvas>
-    </param>
-    <param name="zoom">
-      <real value="0.0000000000"/>
-    </param>
-    <param name="time_offset">
-      <time value="0s"/>
-    </param>
-    <param name="children_lock">
-      <bool value="false" static="true"/>
-    </param>
-    <param name="focus">
-      <vector>
-        <x>0.0000000000</x>
-        <y>0.0000000000</y>
-      </vector>
-    </param>
-    <param name="outline_grow">
-      <real value="0.0000000000"/>
-    </param>
-  </layer>
   <layer type="PasteCanvas" active="true" version="0.1" desc="(stk)">
     <param name="z_depth">
       <real value="0.0000000000"/>
