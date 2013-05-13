@@ -38,7 +38,7 @@ def process(filename):
 			defs_found=False
 			# Check version here
 			if version=='':
-				print "ERROR: Provided skeleton is not compatible with this script."
+				print("ERROR: Provided skeleton is not compatible with this script.")
 				sys.exit(1)
 			
 		elif defs_found:
@@ -52,10 +52,9 @@ def process(filename):
 					el_type=re.findall(r'<(.*?) .*', line)
 				el_type=el_type[0]
 				exports[el_name]=el_type
-				match=re.findall(r'\(stk.*\)-version', el_name)
-				if len(match)!=0:
+				if el_name=='(stk)-version':
 					version=re.findall(r'>(.*?)</string>', line)[0]
-					print "Skeleton version: %s" % version
+					print("Skeleton version: %s" % version)
 		elif "<defs>" in line:
 			inputfile_f.write(line)
 			defs_found=True

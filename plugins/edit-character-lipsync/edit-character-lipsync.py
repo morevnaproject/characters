@@ -123,7 +123,7 @@ def process(filename):
 					
 				elif l.startswith("\t\t\t"):
 					word_end=int(l.split(' ')[2].strip()) + 1
-					print "Word found, ends on: %s" % word_end
+					print("Word found, ends on: %s" % word_end)
 					phonemes[word_end]='rest'
 			phonemes[word_end]='rest'
 			
