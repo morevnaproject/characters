@@ -46,8 +46,8 @@ def process(filename):
 			# Read exported values and their types
 			if "id=" in line:
 				
-				el_name=re.findall(r'id="(.*?)"', line)[0]
-				el_type=re.findall(r'type="(.*?)"', line)
+				el_name=re.findall(r' id="(.*?)"', line)[0]
+				el_type=re.findall(r' type="(.*?)"', line)
 				if len(el_type)==0:
 					el_type=re.findall(r'<(.*?) .*', line)
 				el_type=el_type[0]
