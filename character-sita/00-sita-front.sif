@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Stickman</name>
   <desc>  </desc>
@@ -10,7 +10,7 @@
   <meta name="onion_skin" content="0"/>
   <defs>
     <real value="-0.0028997711" id="(stk)-switch-palm-r"/>
-    <real value="-0.9204819798" id="(stk)-switch-palm-l"/>
+    <real value="-0.0573313273" id="(stk)-switch-palm-l"/>
     <real value="0.0823047534" id="(stk)-switch-foot-r"/>
     <real value="0.5696650743" id="(stk)-switch-foot-l"/>
     <string id="(stk)-version">1</string>
@@ -77,7 +77,7 @@
       <a>1.000000</a>
     </color>
     <bool value="false" id="(stk)-children-lock"/>
-    <add type="vector" id="(stk)-hip2-transp" guid="D08F738EE00FCCB46EAAFFF1E86E04FF">
+    <add guid="D08F738EE00FCCB46EAAFFF1E86E04FF" type="vector" id="(stk)-hip2-transp">
       <lhs>
         <add type="vector">
           <lhs>
@@ -169,7 +169,7 @@
         <real value="1.0000000000"/>
       </scalar>
     </add>
-    <add type="vector" id="(stk)-hip1-transp" guid="A9B51E065B0B4C8FD1F0F8D6D34DC618">
+    <add guid="A9B51E065B0B4C8FD1F0F8D6D34DC618" type="vector" id="(stk)-hip1-transp">
       <lhs>
         <add type="vector">
           <lhs>
@@ -217,12 +217,12 @@
               </radius>
               <theta>
                 <subtract type="angle" rhs="(stk)-knee1-t">
-                  <lhs>
-                    <vectorangle type="angle" vector="(stk)-origin"/>
-                  </lhs>
                   <scalar>
                     <real value="1.0000000000"/>
                   </scalar>
+                  <lhs>
+                    <vectorangle type="angle" vector="(stk)-origin"/>
+                  </lhs>
                 </subtract>
               </theta>
             </radial_composite>
@@ -254,7 +254,7 @@
       <a>1.000000</a>
     </color>
     <bool value="true" static="true" id="(stk)-widget-amount-switch"/>
-    <switch type="real" switch="(stk)-widget-amount-switch" id="(stk)-widget-amount" guid="4E567F933439A193981F530B66A55737">
+    <switch guid="4E567F933439A193981F530B66A55737" type="real" switch="(stk)-widget-amount-switch" id="(stk)-widget-amount">
       <link_off>
         <real value="0.0000000000"/>
       </link_off>
@@ -312,7 +312,7 @@
                 <integer value="1"/>
               </param>
               <param name="origin">
-                <greyed type="vector" guid="46C5B125C8ECFDFA190A3AC3523C553F">
+                <greyed guid="46C5B125C8ECFDFA190A3AC3523C553F" type="vector">
                   <link>
                     <vector>
                       <x>0.0000000000</x>
@@ -326,7 +326,7 @@
                 <real value="0.0000000000"/>
               </param>
               <param name="time_offset">
-                <linear type="time" offset=":mimic:(stk)-switch-mimic" guid="27D916C3511FB2773301C43546730E61">
+                <linear guid="27D916C3511FB2773301C43546730E61" type="time" offset=":mimic:(stk)-switch-mimic">
                   <slope>
                     <time value="-1s"/>
                   </slope>
@@ -363,7 +363,7 @@
                 <integer value="1"/>
               </param>
               <param name="origin">
-                <greyed type="vector" guid="46C5B125C8ECFDFA190A3AC3523C553F">
+                <greyed guid="46C5B125C8ECFDFA190A3AC3523C553F" type="vector">
                   <link>
                     <vector>
                       <x>0.0000000000</x>
@@ -377,7 +377,7 @@
                 <real value="0.0000000000"/>
               </param>
               <param name="time_offset">
-                <linear type="time" offset=":mimic:(stk)-switch-mimic" guid="27D916C3511FB2773301C43546730E61">
+                <linear guid="27D916C3511FB2773301C43546730E61" type="time" offset=":mimic:(stk)-switch-mimic">
                   <slope>
                     <time value="-1s"/>
                   </slope>
@@ -414,7 +414,7 @@
                 <integer value="1"/>
               </param>
               <param name="origin">
-                <greyed type="vector" guid="46C5B125C8ECFDFA190A3AC3523C553F">
+                <greyed guid="46C5B125C8ECFDFA190A3AC3523C553F" type="vector">
                   <link>
                     <vector>
                       <x>0.0000000000</x>
@@ -428,7 +428,7 @@
                 <real value="0.0000000000"/>
               </param>
               <param name="time_offset">
-                <linear type="time" offset=":mimic:(stk)-switch-mimic" guid="27D916C3511FB2773301C43546730E61">
+                <linear guid="27D916C3511FB2773301C43546730E61" type="time" offset=":mimic:(stk)-switch-mimic">
                   <slope>
                     <time value="-1s"/>
                   </slope>
@@ -465,7 +465,7 @@
                 <integer value="1"/>
               </param>
               <param name="origin">
-                <greyed type="vector" guid="46C5B125C8ECFDFA190A3AC3523C553F">
+                <greyed guid="46C5B125C8ECFDFA190A3AC3523C553F" type="vector">
                   <link>
                     <vector>
                       <x>0.0000000000</x>
@@ -479,7 +479,7 @@
                 <real value="0.0000000000"/>
               </param>
               <param name="time_offset">
-                <linear type="time" offset=":mimic:(stk)-switch-mimic" guid="27D916C3511FB2773301C43546730E61">
+                <linear guid="27D916C3511FB2773301C43546730E61" type="time" offset=":mimic:(stk)-switch-mimic">
                   <slope>
                     <time value="-1s"/>
                   </slope>
@@ -516,7 +516,7 @@
                 <integer value="1"/>
               </param>
               <param name="origin">
-                <greyed type="vector" guid="46C5B125C8ECFDFA190A3AC3523C553F">
+                <greyed guid="46C5B125C8ECFDFA190A3AC3523C553F" type="vector">
                   <link>
                     <vector>
                       <x>0.0000000000</x>
@@ -530,7 +530,7 @@
                 <real value="0.0000000000"/>
               </param>
               <param name="time_offset">
-                <linear type="time" offset=":mimic:(stk)-switch-mimic" guid="27D916C3511FB2773301C43546730E61">
+                <linear guid="27D916C3511FB2773301C43546730E61" type="time" offset=":mimic:(stk)-switch-mimic">
                   <slope>
                     <time value="-1s"/>
                   </slope>
@@ -5239,7 +5239,7 @@
                 </param>
                 <param name="canvas">
                   <canvas>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14974 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14974 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -5279,7 +5279,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="326E730AD7CE023FB3F89F0D6B48972F">
+                        <bline guid="326E730AD7CE023FB3F89F0D6B48972F" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -5439,7 +5439,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14974&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14974Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -5479,7 +5479,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="326E730AD7CE023FB3F89F0D6B48972F">
+                        <bline guid="326E730AD7CE023FB3F89F0D6B48972F" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -6121,7 +6121,7 @@
                       </param>
                       <param name="canvas">
                         <canvas>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -6161,7 +6161,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="F8175440B7B4B32963C18C13BF1B920B">
+                              <bline guid="F8175440B7B4B32963C18C13BF1B920B" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -6321,7 +6321,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -6361,7 +6361,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="F8175440B7B4B32963C18C13BF1B920B">
+                              <bline guid="F8175440B7B4B32963C18C13BF1B920B" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -6619,7 +6619,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -6659,7 +6659,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="8B125768874E7443C700689B3953D415">
+                              <bline guid="8B125768874E7443C700689B3953D415" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -6819,7 +6819,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -6859,7 +6859,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="8B125768874E7443C700689B3953D415">
+                              <bline guid="8B125768874E7443C700689B3953D415" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -7117,7 +7117,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -7157,7 +7157,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="9B4D8F5B0BA024F7F2C5C1534E6BB412">
+                              <bline guid="9B4D8F5B0BA024F7F2C5C1534E6BB412" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -7317,7 +7317,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -7357,7 +7357,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="9B4D8F5B0BA024F7F2C5C1534E6BB412">
+                              <bline guid="9B4D8F5B0BA024F7F2C5C1534E6BB412" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -7615,7 +7615,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -7655,7 +7655,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="E96917C999ECD83B095E7A65D2167860">
+                              <bline guid="E96917C999ECD83B095E7A65D2167860" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -7815,7 +7815,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -7855,7 +7855,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="E96917C999ECD83B095E7A65D2167860">
+                              <bline guid="E96917C999ECD83B095E7A65D2167860" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -8113,7 +8113,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -8153,7 +8153,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="761AD7017F18F0E38CC40378BE8E0628">
+                              <bline guid="761AD7017F18F0E38CC40378BE8E0628" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -8313,7 +8313,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -8353,7 +8353,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="761AD7017F18F0E38CC40378BE8E0628">
+                              <bline guid="761AD7017F18F0E38CC40378BE8E0628" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -8611,7 +8611,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -8651,7 +8651,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="8E3564F74EF755BCBDE3F675984E6AA0">
+                              <bline guid="8E3564F74EF755BCBDE3F675984E6AA0" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -8811,7 +8811,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -8851,7 +8851,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="8E3564F74EF755BCBDE3F675984E6AA0">
+                              <bline guid="8E3564F74EF755BCBDE3F675984E6AA0" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -9109,7 +9109,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -9149,7 +9149,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="703E224B06E2391398865C40F22E4727">
+                              <bline guid="703E224B06E2391398865C40F22E4727" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -9309,7 +9309,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -9349,7 +9349,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="703E224B06E2391398865C40F22E4727">
+                              <bline guid="703E224B06E2391398865C40F22E4727" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -9607,7 +9607,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -9647,7 +9647,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="1E6B6B39F0544FC88961E11D4BAD809F">
+                              <bline guid="1E6B6B39F0544FC88961E11D4BAD809F" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -9807,7 +9807,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -9847,7 +9847,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="1E6B6B39F0544FC88961E11D4BAD809F">
+                              <bline guid="1E6B6B39F0544FC88961E11D4BAD809F" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -10105,7 +10105,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="NewBLine17120 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="NewBLine17120 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -10344,7 +10344,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -10384,7 +10384,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="E3EBF50E5FCDA8CBEF89696F06252314">
+                              <bline guid="E3EBF50E5FCDA8CBEF89696F06252314" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -10544,7 +10544,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -10584,7 +10584,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="E3EBF50E5FCDA8CBEF89696F06252314">
+                              <bline guid="E3EBF50E5FCDA8CBEF89696F06252314" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -10842,7 +10842,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -10882,7 +10882,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="54D0F01D3F2EB239460DC9C4B2292D80">
+                              <bline guid="54D0F01D3F2EB239460DC9C4B2292D80" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -11042,7 +11042,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -11082,7 +11082,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="54D0F01D3F2EB239460DC9C4B2292D80">
+                              <bline guid="54D0F01D3F2EB239460DC9C4B2292D80" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -11340,7 +11340,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle706 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle706 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -11380,7 +11380,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="B92C2C01C941544C9F707EE152F9FBE8">
+                              <bline guid="B92C2C01C941544C9F707EE152F9FBE8" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -11540,7 +11540,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle706Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -11580,7 +11580,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="B92C2C01C941544C9F707EE152F9FBE8">
+                              <bline guid="B92C2C01C941544C9F707EE152F9FBE8" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -11859,7 +11859,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="Circle707 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="Circle707 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -11899,7 +11899,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="8A5EBF1C48A3D51CCDBE90A0CA02DFFC">
+                        <bline guid="8A5EBF1C48A3D51CCDBE90A0CA02DFFC" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -12059,7 +12059,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle707&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle707Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -12099,7 +12099,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="8A5EBF1C48A3D51CCDBE90A0CA02DFFC">
+                        <bline guid="8A5EBF1C48A3D51CCDBE90A0CA02DFFC" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -12357,7 +12357,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="Circle707 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="Circle707 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -12397,7 +12397,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="D3354F97B5FACED19EACA41ACB1432BB">
+                        <bline guid="D3354F97B5FACED19EACA41ACB1432BB" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -12557,7 +12557,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle707&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle707Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -12597,7 +12597,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="D3354F97B5FACED19EACA41ACB1432BB">
+                        <bline guid="D3354F97B5FACED19EACA41ACB1432BB" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -12855,7 +12855,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="Circle707 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="Circle707 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -12895,7 +12895,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="CAD84B8B609D2216F1AD3820F714D5EC">
+                        <bline guid="CAD84B8B609D2216F1AD3820F714D5EC" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -13055,7 +13055,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle707&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle707Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -13095,7 +13095,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="CAD84B8B609D2216F1AD3820F714D5EC">
+                        <bline guid="CAD84B8B609D2216F1AD3820F714D5EC" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -13662,7 +13662,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="D69756004D5F4C4F5F5C30FA21830F3C">
+                        <bline guid="D69756004D5F4C4F5F5C30FA21830F3C" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -13857,7 +13857,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17083 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17083 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -13897,7 +13897,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="9276A52901C1CD716C3FC2BE3E7D6B18">
+                        <bline guid="9276A52901C1CD716C3FC2BE3E7D6B18" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -14018,7 +14018,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17101&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17101Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -14058,7 +14058,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="34E9544D009FBA9334516E14BA93E1D0">
+                        <bline guid="34E9544D009FBA9334516E14BA93E1D0" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -14277,7 +14277,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17083&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17083Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -14317,7 +14317,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="9276A52901C1CD716C3FC2BE3E7D6B18">
+                        <bline guid="9276A52901C1CD716C3FC2BE3E7D6B18" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -14536,7 +14536,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17082 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17082 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -14576,7 +14576,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="B3C561A9C480C95AF317D34CE6EBAB60">
+                        <bline guid="B3C561A9C480C95AF317D34CE6EBAB60" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -14697,7 +14697,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17082&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17082Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -14737,7 +14737,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="B3C561A9C480C95AF317D34CE6EBAB60">
+                        <bline guid="B3C561A9C480C95AF317D34CE6EBAB60" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -15446,7 +15446,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14974 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14974 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -15486,7 +15486,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="3AFFA57B0AAE763F012A583C28E084DA">
+                        <bline guid="3AFFA57B0AAE763F012A583C28E084DA" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -15646,7 +15646,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14974&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14974Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -15686,7 +15686,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="3AFFA57B0AAE763F012A583C28E084DA">
+                        <bline guid="3AFFA57B0AAE763F012A583C28E084DA" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -16341,7 +16341,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="D69756004D5F4C4F5F5C30FA21830F3C">
+                        <bline guid="D69756004D5F4C4F5F5C30FA21830F3C" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -16423,7 +16423,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17083 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17083 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -16463,7 +16463,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="0CD94645F8450CD0BF2E2E235EDAF097">
+                        <bline guid="0CD94645F8450CD0BF2E2E235EDAF097" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -16584,7 +16584,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17101&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17101Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -16624,7 +16624,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="AA46B721F91B7B32E7408289DA347A5F">
+                        <bline guid="AA46B721F91B7B32E7408289DA347A5F" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -16843,7 +16843,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17083&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17083Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -16883,7 +16883,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="0CD94645F8450CD0BF2E2E235EDAF097">
+                        <bline guid="0CD94645F8450CD0BF2E2E235EDAF097" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -17102,7 +17102,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17082 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17082 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -17142,7 +17142,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="2D6A82C53D0408FB20063FD1864C30EF">
+                        <bline guid="2D6A82C53D0408FB20063FD1864C30EF" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -17263,7 +17263,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17082&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17082Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -17303,7 +17303,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="2D6A82C53D0408FB20063FD1864C30EF">
+                        <bline guid="2D6A82C53D0408FB20063FD1864C30EF" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -19431,7 +19431,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14977 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14977 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -19471,7 +19471,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="332632A8C5074B8AF99B65F94514F9E0">
+                        <bline guid="332632A8C5074B8AF99B65F94514F9E0" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -19631,7 +19631,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="false" version="0.1" desc="NewBLine14994 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="false" version="0.1" desc="NewBLine14994 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -19870,7 +19870,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14977&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14977Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -19910,7 +19910,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="332632A8C5074B8AF99B65F94514F9E0">
+                        <bline guid="332632A8C5074B8AF99B65F94514F9E0" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -20493,7 +20493,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="2DA787A07D177461F1D0C43A14344142">
+                        <bline guid="2DA787A07D177461F1D0C43A14344142" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -20575,7 +20575,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14978 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14978 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -20615,7 +20615,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="FC22B18F51EED58EB8F52C1F8C3B3D46">
+                        <bline guid="FC22B18F51EED58EB8F52C1F8C3B3D46" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -21048,7 +21048,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14996 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14996 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -21209,7 +21209,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14984&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14984Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -21249,7 +21249,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="CDF202257378DCC8768058F985D85281">
+                        <bline guid="CDF202257378DCC8768058F985D85281" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -21507,7 +21507,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14978&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14978Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -21547,7 +21547,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="FC22B18F51EED58EB8F52C1F8C3B3D46">
+                        <bline guid="FC22B18F51EED58EB8F52C1F8C3B3D46" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -22455,7 +22455,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14977 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14977 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -22495,7 +22495,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="E5736ADC69BD816E8DEF359AFDF78C0D">
+                        <bline guid="E5736ADC69BD816E8DEF359AFDF78C0D" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -22655,7 +22655,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14994 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14994 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -22894,7 +22894,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14983&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14983Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -22934,7 +22934,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="249707B8AC2EE99AEC47BF0F0BB359E9">
+                        <bline guid="249707B8AC2EE99AEC47BF0F0BB359E9" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -23114,7 +23114,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14977&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14977Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -23154,7 +23154,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="E5736ADC69BD816E8DEF359AFDF78C0D">
+                        <bline guid="E5736ADC69BD816E8DEF359AFDF78C0D" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -23851,7 +23851,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14977 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14977 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -23891,7 +23891,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="1E0F2376084383AC64E13356B951D74D">
+                        <bline guid="1E0F2376084383AC64E13356B951D74D" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -24051,7 +24051,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="false" version="0.1" desc="NewBLine14994 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="false" version="0.1" desc="NewBLine14994 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -24290,7 +24290,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14977&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine14977Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -24330,7 +24330,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="1E0F2376084383AC64E13356B951D74D">
+                        <bline guid="1E0F2376084383AC64E13356B951D74D" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -25013,7 +25013,7 @@
                       </param>
                       <param name="canvas">
                         <canvas>
-                          <layer type="region" active="true" version="0.1" desc="NewBLine17079 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="NewBLine17079 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -25053,7 +25053,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="54BED1AAB6301CCDE46A24E2A5D9D681">
+                              <bline guid="54BED1AAB6301CCDE46A24E2A5D9D681" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -25252,7 +25252,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17079&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17079Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -25292,7 +25292,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="54BED1AAB6301CCDE46A24E2A5D9D681">
+                              <bline guid="54BED1AAB6301CCDE46A24E2A5D9D681" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -25647,7 +25647,7 @@
                       </param>
                       <param name="canvas">
                         <canvas>
-                          <layer type="region" active="true" version="0.1" desc="NewBLine17079 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="NewBLine17079 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -25687,7 +25687,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="9B8D176254A38B316F0504F25E4F1826">
+                              <bline guid="9B8D176254A38B316F0504F25E4F1826" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -25964,7 +25964,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17133&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17133Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -26004,7 +26004,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="false" guid="1A49075A6C3C37D58EE88A8DD0448EA8">
+                              <bline guid="1A49075A6C3C37D58EE88A8DD0448EA8" type="bline_point" loop="false">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -26223,7 +26223,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17079&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17079Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -26263,7 +26263,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="9B8D176254A38B316F0504F25E4F1826">
+                              <bline guid="9B8D176254A38B316F0504F25E4F1826" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -26695,7 +26695,7 @@
                             </param>
                             <param name="canvas">
                               <canvas>
-                                <layer type="region" active="true" version="0.1" desc="NewBLine17080 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                                <layer type="region" active="true" version="0.1" desc="NewBLine17080 Область">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -26735,7 +26735,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="031A109E1489745AF6776176EC9CD568">
+                                    <bline guid="031A109E1489745AF6776176EC9CD568" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -26856,7 +26856,7 @@
                                     </bline>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17080&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17080Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -26896,7 +26896,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="031A109E1489745AF6776176EC9CD568">
+                                    <bline guid="031A109E1489745AF6776176EC9CD568" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -27115,7 +27115,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="region" active="true" version="0.1" desc="NewBLine17081 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                                <layer type="region" active="true" version="0.1" desc="NewBLine17081 Область">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -27155,7 +27155,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="A4981AA0DA300D26D27AE0F96D514F88">
+                                    <bline guid="A4981AA0DA300D26D27AE0F96D514F88" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -27315,7 +27315,7 @@
                                     </bline>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17081&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17081Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -27355,7 +27355,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="A4981AA0DA300D26D27AE0F96D514F88">
+                                    <bline guid="A4981AA0DA300D26D27AE0F96D514F88" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -27613,7 +27613,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17078&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17078Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -27653,7 +27653,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="B070100DCD018E3E1631E79FE85FC6B4">
+                                    <bline guid="B070100DCD018E3E1631E79FE85FC6B4" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -27911,7 +27911,7 @@
                             </param>
                             <param name="canvas">
                               <canvas>
-                                <layer type="region" active="true" version="0.1" desc="Circle690 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                                <layer type="region" active="true" version="0.1" desc="Circle690 Область">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -27951,7 +27951,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="0D40DF0078EB398951B84D34140776B8">
+                                    <bline guid="0D40DF0078EB398951B84D34140776B8" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -28111,7 +28111,7 @@
                                     </bline>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="Circle690&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="Circle690Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -28151,7 +28151,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="0D40DF0078EB398951B84D34140776B8">
+                                    <bline guid="0D40DF0078EB398951B84D34140776B8" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -28445,7 +28445,7 @@
                                         </param>
                                         <param name="canvas">
                                           <canvas>
-                                            <layer type="region" active="true" version="0.1" desc="Circle690 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                                            <layer type="region" active="true" version="0.1" desc="Circle690 Область">
                                               <param name="z_depth">
                                                 <real value="0.0000000000"/>
                                               </param>
@@ -28485,7 +28485,7 @@
                                                 <integer value="0"/>
                                               </param>
                                               <param name="bline">
-                                                <bline type="bline_point" loop="true" guid="4884E18E31BD7D13CD99909395AB1AAD">
+                                                <bline guid="4884E18E31BD7D13CD99909395AB1AAD" type="bline_point" loop="true">
                                                   <entry>
                                                     <composite type="bline_point">
                                                       <point>
@@ -28645,7 +28645,7 @@
                                                 </bline>
                                               </param>
                                             </layer>
-                                            <layer type="advanced_outline" active="true" version="0.2" desc="Circle690&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                            <layer type="advanced_outline" active="true" version="0.2" desc="Circle690Расширенный контур">
                                               <param name="z_depth">
                                                 <real value="0.0000000000"/>
                                               </param>
@@ -28685,7 +28685,7 @@
                                                 <integer value="0"/>
                                               </param>
                                               <param name="bline">
-                                                <bline type="bline_point" loop="true" guid="4884E18E31BD7D13CD99909395AB1AAD">
+                                                <bline guid="4884E18E31BD7D13CD99909395AB1AAD" type="bline_point" loop="true">
                                                   <entry>
                                                     <composite type="bline_point">
                                                       <point>
@@ -28982,7 +28982,7 @@
                                         </param>
                                         <param name="canvas">
                                           <canvas>
-                                            <layer type="region" active="true" version="0.1" desc="NewBLine17077 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                                            <layer type="region" active="true" version="0.1" desc="NewBLine17077 Область">
                                               <param name="z_depth">
                                                 <real value="0.0000000000"/>
                                               </param>
@@ -29224,7 +29224,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17077&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17077Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -29264,7 +29264,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="65EFC4B34D1FFDDF3FC120A133DE71A0">
+                                    <bline guid="65EFC4B34D1FFDDF3FC120A133DE71A0" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -29522,7 +29522,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17078&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17078Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -29562,7 +29562,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="6334CB0A9F8F75048AFEA65A3614E417">
+                                    <bline guid="6334CB0A9F8F75048AFEA65A3614E417" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -29820,7 +29820,7 @@
                             </param>
                             <param name="canvas">
                               <canvas>
-                                <layer type="region" active="true" version="0.1" desc="Circle690 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                                <layer type="region" active="true" version="0.1" desc="Circle690 Область">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -29860,7 +29860,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="354597F3CA5FE04AB04E8A731F6D909C">
+                                    <bline guid="354597F3CA5FE04AB04E8A731F6D909C" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -30020,7 +30020,7 @@
                                     </bline>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="Circle690&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="Circle690Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -30060,7 +30060,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="354597F3CA5FE04AB04E8A731F6D909C">
+                                    <bline guid="354597F3CA5FE04AB04E8A731F6D909C" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -30354,7 +30354,7 @@
                                         </param>
                                         <param name="canvas">
                                           <canvas>
-                                            <layer type="region" active="true" version="0.1" desc="Circle690 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                                            <layer type="region" active="true" version="0.1" desc="Circle690 Область">
                                               <param name="z_depth">
                                                 <real value="0.0000000000"/>
                                               </param>
@@ -30394,7 +30394,7 @@
                                                 <integer value="0"/>
                                               </param>
                                               <param name="bline">
-                                                <bline type="bline_point" loop="true" guid="7081A97D8309A4D02C6F57D49EC1FC89">
+                                                <bline guid="7081A97D8309A4D02C6F57D49EC1FC89" type="bline_point" loop="true">
                                                   <entry>
                                                     <composite type="bline_point">
                                                       <point>
@@ -30554,7 +30554,7 @@
                                                 </bline>
                                               </param>
                                             </layer>
-                                            <layer type="advanced_outline" active="true" version="0.2" desc="Circle690&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                            <layer type="advanced_outline" active="true" version="0.2" desc="Circle690Расширенный контур">
                                               <param name="z_depth">
                                                 <real value="0.0000000000"/>
                                               </param>
@@ -30594,7 +30594,7 @@
                                                 <integer value="0"/>
                                               </param>
                                               <param name="bline">
-                                                <bline type="bline_point" loop="true" guid="7081A97D8309A4D02C6F57D49EC1FC89">
+                                                <bline guid="7081A97D8309A4D02C6F57D49EC1FC89" type="bline_point" loop="true">
                                                   <entry>
                                                     <composite type="bline_point">
                                                       <point>
@@ -30891,7 +30891,7 @@
                                         </param>
                                         <param name="canvas">
                                           <canvas>
-                                            <layer type="region" active="true" version="0.1" desc="NewBLine17077 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                                            <layer type="region" active="true" version="0.1" desc="NewBLine17077 Область">
                                               <param name="z_depth">
                                                 <real value="0.0000000000"/>
                                               </param>
@@ -31133,7 +31133,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17077&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17077Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -31173,7 +31173,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="true" guid="5DEA8C40FFAB241CDE37E7E638B49784">
+                                    <bline guid="5DEA8C40FFAB241CDE37E7E638B49784" type="bline_point" loop="true">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -31431,7 +31431,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17078&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17078Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -31471,7 +31471,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="5B3183F92D3BACC76B08611D3D7E0233">
+                                    <bline guid="5B3183F92D3BACC76B08611D3D7E0233" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -32342,7 +32342,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="Circle691 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="Circle691 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -32382,7 +32382,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="F6C99F383E03499E36164FEE3F480DD7">
+                        <bline guid="F6C99F383E03499E36164FEE3F480DD7" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -32542,7 +32542,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="Circle696 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="Circle696 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -32742,7 +32742,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle697&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle697Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -32782,7 +32782,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="F943C50AE132C06ADA70E584401D60C8">
+                        <bline guid="F943C50AE132C06ADA70E584401D60C8" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -33040,7 +33040,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle691&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="Circle691Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -33080,7 +33080,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="F6C99F383E03499E36164FEE3F480DD7">
+                        <bline guid="F6C99F383E03499E36164FEE3F480DD7" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -33393,10 +33393,10 @@
                               <integer value="1"/>
                             </param>
                             <param name="winding_style">
-                              <integer value="0" guid="87A27FEC514C731DE2ABF80447CF8FFF"/>
+                              <integer guid="87A27FEC514C731DE2ABF80447CF8FFF" value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="6454DA2CADA916650AC7215CA6FA7BD3">
+                              <bline guid="6454DA2CADA916650AC7215CA6FA7BD3" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -33556,7 +33556,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17091&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17091Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -33593,10 +33593,10 @@
                               <integer value="1"/>
                             </param>
                             <param name="winding_style">
-                              <integer value="0" guid="87A27FEC514C731DE2ABF80447CF8FFF"/>
+                              <integer guid="87A27FEC514C731DE2ABF80447CF8FFF" value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="6454DA2CADA916650AC7215CA6FA7BD3">
+                              <bline guid="6454DA2CADA916650AC7215CA6FA7BD3" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -33872,7 +33872,7 @@
                             </param>
                             <param name="canvas">
                               <canvas>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17092&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17092Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -33912,7 +33912,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="AABD39559591809844BD7256D1563320">
+                                    <bline guid="AABD39559591809844BD7256D1563320" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -34131,7 +34131,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17093&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17093Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -34171,7 +34171,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="12F7D4B1A9DA1805E37DDF8457248044">
+                                    <bline guid="12F7D4B1A9DA1805E37DDF8457248044" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -34390,7 +34390,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17094&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17094Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -34430,7 +34430,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="7F731BB876D47E31D7157A283BEBFF54">
+                                    <bline guid="7F731BB876D47E31D7157A283BEBFF54" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -34610,7 +34610,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17092&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17092Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -34650,7 +34650,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="E359846E70FC2BC4C036FB3DD9FC06B6">
+                                    <bline guid="E359846E70FC2BC4C036FB3DD9FC06B6" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -34869,7 +34869,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17093&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17093Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -34909,7 +34909,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="5B13698A4CB7B35967F656EF5F8EB5D2">
+                                    <bline guid="5B13698A4CB7B35967F656EF5F8EB5D2" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -35128,7 +35128,7 @@
                                     <real value="0.0000000000"/>
                                   </param>
                                 </layer>
-                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17094&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                                <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17094Расширенный контур">
                                   <param name="z_depth">
                                     <real value="0.0000000000"/>
                                   </param>
@@ -35168,7 +35168,7 @@
                                     <integer value="0"/>
                                   </param>
                                   <param name="bline">
-                                    <bline type="bline_point" loop="false" guid="3697A68393B9D56D539EF3433341CAC2">
+                                    <bline guid="3697A68393B9D56D539EF3433341CAC2" type="bline_point" loop="false">
                                       <entry>
                                         <composite type="bline_point">
                                           <point>
@@ -35786,7 +35786,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="5F5DA9E0AC88C92332E3AFD23B290118">
+                        <bline guid="5F5DA9E0AC88C92332E3AFD23B290118" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -35988,7 +35988,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="5F5DA9E0AC88C92332E3AFD23B290118">
+                        <bline guid="5F5DA9E0AC88C92332E3AFD23B290118" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -36169,7 +36169,7 @@
                         <bool value="true"/>
                       </param>
                     </layer>
-                    <layer type="outline" active="false" version="0.2" desc="NewBLine010 &#x41A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="outline" active="false" version="0.2" desc="NewBLine010 Контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -36392,7 +36392,7 @@
                               <real value="0.0000000000"/>
                             </param>
                             <param name="time_offset">
-                              <linear type="time" offset=":(stk)-switch-eyes" guid="414B8D385A2D0CAA8C9BFCF838FEF0A7">
+                              <linear guid="414B8D385A2D0CAA8C9BFCF838FEF0A7" type="time" offset=":(stk)-switch-eyes">
                                 <slope>
                                   <time value="-1s"/>
                                 </slope>
@@ -36439,7 +36439,7 @@
                               <real value="0.0000000000"/>
                             </param>
                             <param name="time_offset">
-                              <linear type="time" offset=":(stk)-switch-eyes" guid="414B8D385A2D0CAA8C9BFCF838FEF0A7">
+                              <linear guid="414B8D385A2D0CAA8C9BFCF838FEF0A7" type="time" offset=":(stk)-switch-eyes">
                                 <slope>
                                   <time value="-1s"/>
                                 </slope>
@@ -36486,7 +36486,7 @@
                               <real value="0.0000000000"/>
                             </param>
                             <param name="time_offset">
-                              <linear type="time" offset=":(stk)-switch-eyes" guid="414B8D385A2D0CAA8C9BFCF838FEF0A7">
+                              <linear guid="414B8D385A2D0CAA8C9BFCF838FEF0A7" type="time" offset=":(stk)-switch-eyes">
                                 <slope>
                                   <time value="-1s"/>
                                 </slope>
@@ -36533,7 +36533,7 @@
                               <real value="0.0000000000"/>
                             </param>
                             <param name="time_offset">
-                              <linear type="time" offset=":(stk)-switch-eyes" guid="414B8D385A2D0CAA8C9BFCF838FEF0A7">
+                              <linear guid="414B8D385A2D0CAA8C9BFCF838FEF0A7" type="time" offset=":(stk)-switch-eyes">
                                 <slope>
                                   <time value="-1s"/>
                                 </slope>
@@ -36580,7 +36580,7 @@
                               <real value="0.0000000000"/>
                             </param>
                             <param name="time_offset">
-                              <linear type="time" offset=":(stk)-switch-eyes" guid="414B8D385A2D0CAA8C9BFCF838FEF0A7">
+                              <linear guid="414B8D385A2D0CAA8C9BFCF838FEF0A7" type="time" offset=":(stk)-switch-eyes">
                                 <slope>
                                   <time value="-1s"/>
                                 </slope>
@@ -37527,7 +37527,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="2DA787A07D177461F1D0C43A14344142">
+                        <bline guid="2DA787A07D177461F1D0C43A14344142" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -37609,7 +37609,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17097 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17097 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -37649,7 +37649,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="07F33FBDBE30BB69357E1E63D25A39D9">
+                        <bline guid="07F33FBDBE30BB69357E1E63D25A39D9" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -38004,7 +38004,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17098&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17098Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -38044,7 +38044,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="1449BDC7EB7858B0DC5F67207A975785">
+                        <bline guid="1449BDC7EB7858B0DC5F67207A975785" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -38224,7 +38224,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17099&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17099Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -38264,7 +38264,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="7B03631E89B3B4AB302902DFBFB87BD5">
+                        <bline guid="7B03631E89B3B4AB302902DFBFB87BD5" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -38444,7 +38444,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17100&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17100Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -38484,7 +38484,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="95D91C53B45085B52E83B08120D0BFB7">
+                        <bline guid="95D91C53B45085B52E83B08120D0BFB7" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -38664,7 +38664,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17097&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17097Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -38704,7 +38704,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="07F33FBDBE30BB69357E1E63D25A39D9">
+                        <bline guid="07F33FBDBE30BB69357E1E63D25A39D9" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -39197,7 +39197,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="FF1D52F216843761DCC9A4591AED5461">
+                        <bline guid="FF1D52F216843761DCC9A4591AED5461" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -39512,7 +39512,7 @@
                       </param>
                       <param name="canvas">
                         <canvas>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle693&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle693Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -39552,7 +39552,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="1315A20D916355FEBCDCD3F5351918A7">
+                              <bline guid="1315A20D916355FEBCDCD3F5351918A7" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -39810,7 +39810,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle693 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle693 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -39850,7 +39850,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="2FDB90557BF1699BC6D9AA23A7594B6E">
+                              <bline guid="2FDB90557BF1699BC6D9AA23A7594B6E" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -40010,7 +40010,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle693&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle693Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -40050,7 +40050,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="2FDB90557BF1699BC6D9AA23A7594B6E">
+                              <bline guid="2FDB90557BF1699BC6D9AA23A7594B6E" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -40308,7 +40308,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle693&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle693Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -40348,7 +40348,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="AB30FDBBE00BC0D8D9EF27992D1927E7">
+                              <bline guid="AB30FDBBE00BC0D8D9EF27992D1927E7" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -40606,7 +40606,7 @@
                               <real value="0.0000000000"/>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle694 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle694 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -40646,7 +40646,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="35A5DC7177CDFBA1EE262E7D0079B217">
+                              <bline guid="35A5DC7177CDFBA1EE262E7D0079B217" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -40806,7 +40806,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="region" active="true" version="0.1" desc="Circle695 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                          <layer type="region" active="true" version="0.1" desc="Circle695 Область">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -41006,7 +41006,7 @@
                               </bline>
                             </param>
                           </layer>
-                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle694&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                          <layer type="advanced_outline" active="true" version="0.2" desc="Circle694Расширенный контур">
                             <param name="z_depth">
                               <real value="0.0000000000"/>
                             </param>
@@ -41046,7 +41046,7 @@
                               <integer value="0"/>
                             </param>
                             <param name="bline">
-                              <bline type="bline_point" loop="true" guid="35A5DC7177CDFBA1EE262E7D0079B217">
+                              <bline guid="35A5DC7177CDFBA1EE262E7D0079B217" type="bline_point" loop="true">
                                 <entry>
                                   <composite type="bline_point">
                                     <point>
@@ -42445,7 +42445,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="8F66989DFA03CD4FB96646F3C74B2D34">
+                        <bline guid="8F66989DFA03CD4FB96646F3C74B2D34" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -42527,7 +42527,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17084 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17084 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -42567,7 +42567,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="FF46C11247312F79402E0733DCFE41CF">
+                        <bline guid="FF46C11247312F79402E0733DCFE41CF" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -42805,7 +42805,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17084&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17084Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -42845,7 +42845,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="FF46C11247312F79402E0733DCFE41CF">
+                        <bline guid="FF46C11247312F79402E0733DCFE41CF" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -43181,7 +43181,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17088&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17088Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -43221,7 +43221,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="95D986FDD0EA8241869F2C66CD1AD5E5">
+                        <bline guid="95D986FDD0EA8241869F2C66CD1AD5E5" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -43401,7 +43401,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17089&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17089Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -43441,7 +43441,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="CFC31B128C7E66E0DAC23C3958259546">
+                        <bline guid="CFC31B128C7E66E0DAC23C3958259546" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -43621,7 +43621,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17090&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17090Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -43661,7 +43661,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="8B76D3F85358E9CD0C3D0106E26E0B4E">
+                        <bline guid="8B76D3F85358E9CD0C3D0106E26E0B4E" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -44236,7 +44236,7 @@
                 </param>
                 <param name="canvas">
                   <canvas>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14974 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14974 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -44276,7 +44276,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="326E730AD7CE023FB3F89F0D6B48972F">
+                        <bline guid="326E730AD7CE023FB3F89F0D6B48972F" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -44436,7 +44436,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14988 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14988 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -44714,7 +44714,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="false" version="0.2" desc="NewBLine14974&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="false" version="0.2" desc="NewBLine14974Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -44754,7 +44754,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="326E730AD7CE023FB3F89F0D6B48972F">
+                        <bline guid="326E730AD7CE023FB3F89F0D6B48972F" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -45530,7 +45530,7 @@
                               <real value="0.0000000000"/>
                             </param>
                             <param name="time_offset">
-                              <time value="1s"/>
+                              <time value="0s"/>
                             </param>
                             <param name="children_lock">
                               <bool value="true"/>
@@ -46237,7 +46237,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="8F66989DFA03CD4FB96646F3C74B2D34">
+                        <bline guid="8F66989DFA03CD4FB96646F3C74B2D34" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -46319,7 +46319,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine17084 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine17084 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -46359,7 +46359,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="8B211146D2A054487734AC7F10B66569">
+                        <bline guid="8B211146D2A054487734AC7F10B66569" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -46597,7 +46597,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17084&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17084Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -46637,7 +46637,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="8B211146D2A054487734AC7F10B66569">
+                        <bline guid="8B211146D2A054487734AC7F10B66569" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -46973,7 +46973,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17088&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17088Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -47013,7 +47013,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="E1BE56A9457BF970B185872A0152F143">
+                        <bline guid="E1BE56A9457BF970B185872A0152F143" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -47193,7 +47193,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17089&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17089Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -47233,7 +47233,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="BBA4CB4619EF1DD1EDD89775946DB1E0">
+                        <bline guid="BBA4CB4619EF1DD1EDD89775946DB1E0" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -47413,7 +47413,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17090&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine17090Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -47453,7 +47453,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="false" guid="FF1103ACC6C992FC3B27AA4A2E262FE8">
+                        <bline guid="FF1103ACC6C992FC3B27AA4A2E262FE8" type="bline_point" loop="false">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -48141,7 +48141,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine14974 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="NewBLine14974 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -48181,7 +48181,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="3AFFA57B0AAE763F012A583C28E084DA">
+                        <bline guid="3AFFA57B0AAE763F012A583C28E084DA" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
@@ -48341,7 +48341,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="Circle619 &#x41E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C;">
+                    <layer type="region" active="true" version="0.1" desc="Circle619 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -48541,7 +48541,7 @@
                         </bline>
                       </param>
                     </layer>
-                    <layer type="advanced_outline" active="false" version="0.2" desc="NewBLine14974&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x43D;&#x442;&#x443;&#x440;">
+                    <layer type="advanced_outline" active="false" version="0.2" desc="NewBLine14974Расширенный контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -48581,7 +48581,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="3AFFA57B0AAE763F012A583C28E084DA">
+                        <bline guid="3AFFA57B0AAE763F012A583C28E084DA" type="bline_point" loop="true">
                           <entry>
                             <composite type="bline_point">
                               <point>
