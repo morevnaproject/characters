@@ -256,11 +256,11 @@
         <real value="0.7000000000"/>
       </link_on>
     </switch>
-    <real value="-0.0000000000" id="(stk)-switch-palm-r"/>
-    <real value="-0.4179823101" id="(stk)-switch-palm-l"/>
-    <real value="0.0823047534" id="(stk)-switch-foot-r"/>
-    <real value="0.5696650743" id="(stk)-switch-foot-l"/>
-    <real value="0.0758178756" id="(stk)-switch-eyes"/>
+    <real value="-0.0000000000" interpolation="constant" id="(stk)-switch-palm-r"/>
+    <real value="-0.4179823101" interpolation="constant" id="(stk)-switch-palm-l"/>
+    <real value="0.0823047534" interpolation="constant" id="(stk)-switch-foot-r"/>
+    <real value="0.5696650743" interpolation="constant" id="(stk)-switch-foot-l"/>
+    <real value="0.0758178756" interpolation="constant" id="(stk)-switch-eyes"/>
     <string id="(stk)-version">1</string>
     <real value="-3.5562622547" id="(stk)-switch-head-turn"/>
     <canvas id="mimic" bgcolor="0.500000 0.500000 0.500000 1.000000">
@@ -271,7 +271,7 @@
           <y>0.8333333135</y>
         </vector>
         <integer value="0" static="true" id="(stk)-lang"/>
-        <real value="0.1317266673" id="(stk)-switch-mimic"/>
+        <real value="0.1317266673" interpolation="constant" id="(stk)-switch-mimic"/>
       </defs>
       <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="mimic-switch">
         <param name="z_depth">
@@ -857,7 +857,7 @@
           <real value="0.0000000000"/>
         </param>
       </layer>
-      <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="widget-mimic">
+      <layer type="PasteCanvas" active="true" exclude_from_rendering="true" version="0.1" desc="widget-mimic">
         <param name="z_depth">
           <real value="0.0000000000"/>
         </param>
@@ -10538,7 +10538,7 @@
                         <angle value="-6.964426"/>
                       </param>
                     </layer>
-                    <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="widget-foot">
+                    <layer type="PasteCanvas" active="true" exclude_from_rendering="true" version="0.1" desc="widget-foot">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -11249,7 +11249,7 @@
                         <angle value="-6.964426"/>
                       </param>
                     </layer>
-                    <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="widget-foot">
+                    <layer type="PasteCanvas" active="true" exclude_from_rendering="true" version="0.1" desc="widget-foot">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -34457,7 +34457,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="widget-eyes">
+                    <layer type="PasteCanvas" active="true" exclude_from_rendering="true" version="0.1" desc="widget-eyes">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -34756,7 +34756,7 @@
                         <real value="0.0000000000"/>
                       </param>
                     </layer>
-                    <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="widget-turn">
+                    <layer type="PasteCanvas" active="true" exclude_from_rendering="true" version="0.1" desc="widget-turn">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -35537,7 +35537,7 @@
                       </param>
                       <param name="color" use=":c-skin"/>
                     </layer>
-                    <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="widget-hand">
+                    <layer type="PasteCanvas" active="true" exclude_from_rendering="true" version="0.1" desc="widget-hand">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -38880,7 +38880,7 @@
                         </vector>
                       </param>
                     </layer>
-                    <layer type="PasteCanvas" active="true" exclude_from_rendering="false" version="0.1" desc="widget-hand">
+                    <layer type="PasteCanvas" active="true" exclude_from_rendering="true" version="0.1" desc="widget-hand">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
