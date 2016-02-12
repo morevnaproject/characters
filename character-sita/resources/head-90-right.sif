@@ -1,6 +1,20 @@
-<?xml version="1.0"?>
-<canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 2</name>
+  <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
+  <meta name="background_second_color" content="0.650000 0.650000 0.650000"/>
+  <meta name="background_size" content="15.000000 15.000000"/>
+  <meta name="grid_color" content="0.623529 0.623529 0.623529"/>
+  <meta name="grid_show" content="0"/>
+  <meta name="grid_size" content="0.250000 0.250000"/>
+  <meta name="grid_snap" content="0"/>
+  <meta name="guide_color" content="0.435294 0.435294 1.000000"/>
+  <meta name="guide_show" content="1"/>
+  <meta name="guide_snap" content="0"/>
+  <meta name="jack_offset" content="0.000000"/>
+  <meta name="onion_skin" content="0"/>
+  <meta name="onion_skin_future" content="0"/>
+  <meta name="onion_skin_past" content="1"/>
   <keyframe time="0f" active="true">neutral</keyframe>
   <keyframe time="12f" active="true">happy</keyframe>
   <keyframe time="1s" active="true">sad</keyframe>
@@ -17,7 +31,7 @@
   <defs>
     <integer value="1" static="true" id="(stk)-lang"/>
   </defs>
-  <layer type="PasteCanvas" active="true" version="0.1">
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -33,9 +47,31 @@
         <y>0.0000000000</y>
       </vector>
     </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <vector>
+            <x>0.0000000000</x>
+            <y>0.0000000000</y>
+          </vector>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>1.0000000000</x>
+            <y>1.0000000000</y>
+          </vector>
+        </scale>
+      </composite>
+    </param>
     <param name="canvas" use="head-90-left.sif#"/>
-    <param name="zoom">
-      <real value="0.0000000000"/>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
     </param>
     <param name="time_offset">
       <time value="0s"/>
@@ -43,17 +79,23 @@
     <param name="children_lock">
       <bool value="true"/>
     </param>
-    <param name="focus">
-      <vector>
-        <x>0.0000000000</x>
-        <y>0.0000000000</y>
-      </vector>
-    </param>
     <param name="outline_grow">
       <real value="0.0000000000"/>
     </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
+      <real value="0.0000000000"/>
+    </param>
   </layer>
-  <layer type="stretch" active="true" version="0.1">
+  <layer type="stretch" active="true" exclude_from_rendering="false" version="0.1">
     <param name="amount">
       <vector>
         <x>-1.0000000000</x>
@@ -67,7 +109,7 @@
       </vector>
     </param>
   </layer>
-  <layer type="PasteCanvas" active="true" version="0.1" desc="kf-marks">
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2" desc="kf-marks">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -79,13 +121,35 @@
     </param>
     <param name="origin">
       <vector>
-        <x>2.6791744232</x>
-        <y>1.9740208387</y>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
       </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <vector>
+            <x>2.6791744232</x>
+            <y>1.9740208387</y>
+          </vector>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>1.0000000000</x>
+            <y>1.0000000000</y>
+          </vector>
+        </scale>
+      </composite>
     </param>
     <param name="canvas">
       <canvas>
-        <layer type="rectangle" active="true" version="0.2" desc="Rectangle082">
+        <layer type="rectangle" active="true" exclude_from_rendering="false" version="0.2" desc="Rectangle082">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -122,7 +186,7 @@
             <bool value="false"/>
           </param>
         </layer>
-        <layer type="PasteCanvas" active="true" version="0.1" desc="phonemes">
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2" desc="phonemes">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -138,9 +202,31 @@
               <y>0.0000000000</y>
             </vector>
           </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
           <param name="canvas">
             <canvas>
-              <layer type="PasteCanvas" active="true" version="0.1">
+              <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -152,13 +238,35 @@
                 </param>
                 <param name="origin">
                   <vector>
-                    <x>3.6982245445</x>
-                    <y>-2.2202382088</y>
+                    <x>0.0000000000</x>
+                    <y>0.0000000000</y>
                   </vector>
                 </param>
+                <param name="transformation">
+                  <composite type="transformation">
+                    <offset>
+                      <vector>
+                        <x>3.6982245445</x>
+                        <y>-2.2202382088</y>
+                      </vector>
+                    </offset>
+                    <angle>
+                      <angle value="0.000000"/>
+                    </angle>
+                    <skew_angle>
+                      <angle value="0.000000"/>
+                    </skew_angle>
+                    <scale>
+                      <vector>
+                        <x>1.0000000000</x>
+                        <y>1.0000000000</y>
+                      </vector>
+                    </scale>
+                  </composite>
+                </param>
                 <param name="canvas" use="lang.sif#"/>
-                <param name="zoom">
-                  <real value="0.0000000000"/>
+                <param name="time_dilation">
+                  <real value="1.0000000000"/>
                 </param>
                 <param name="time_offset">
                   <time value="0s"/>
@@ -166,17 +274,23 @@
                 <param name="children_lock">
                   <bool value="true"/>
                 </param>
-                <param name="focus">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
                 <param name="outline_grow">
                   <real value="0.0000000000"/>
                 </param>
+                <param name="z_range">
+                  <bool value="false" static="true"/>
+                </param>
+                <param name="z_range_position">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_depth">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_blur">
+                  <real value="0.0000000000"/>
+                </param>
               </layer>
-              <layer type="translate" active="true" version="0.1" desc="phoneme-shift">
+              <layer type="translate" active="true" exclude_from_rendering="false" version="0.1" desc="phoneme-shift">
                 <param name="origin">
                   <composite type="vector">
                     <x>
@@ -208,7 +322,7 @@
                   </composite>
                 </param>
               </layer>
-              <layer type="translate" active="true" version="0.1" desc="lang-shift">
+              <layer type="translate" active="true" exclude_from_rendering="false" version="0.1" desc="lang-shift">
                 <param name="origin">
                   <composite type="vector">
                     <x>
@@ -229,8 +343,8 @@
               </layer>
             </canvas>
           </param>
-          <param name="zoom">
-            <real value="0.0000000000"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
           </param>
           <param name="time_offset">
             <time value="0s"/>
@@ -238,17 +352,23 @@
           <param name="children_lock">
             <bool value="false" static="true"/>
           </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
           </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
         </layer>
-        <layer type="PasteCanvas" active="true" version="0.1" desc="mimic">
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2" desc="mimic">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -271,9 +391,31 @@
               <y>0.0000000000</y>
             </vector>
           </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
           <param name="canvas">
             <canvas>
-              <layer type="SolidColor" active="true" version="0.1">
+              <layer type="SolidColor" active="true" exclude_from_rendering="false" version="0.1">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -292,7 +434,7 @@
                   </color>
                 </param>
               </layer>
-              <layer type="text" active="true" version="0.2" desc="Text055">
+              <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="Text055">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -305,7 +447,7 @@
                 <param name="text">
                   <animated type="string">
                     <waypoint time="0s" before="constant" after="constant">
-                      <string></string>
+                      <string guid="89421C98916E31534A74FBD7941ED54D"> </string>
                     </waypoint>
                     <waypoint time="0.5s" before="constant" after="constant">
                       <string>:)</string>
@@ -368,8 +510,8 @@
               </layer>
             </canvas>
           </param>
-          <param name="zoom">
-            <real value="0.0000000000"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
           </param>
           <param name="time_offset">
             <time value="0s"/>
@@ -377,17 +519,23 @@
           <param name="children_lock">
             <bool value="false" static="true"/>
           </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
           </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
         </layer>
-        <layer type="zoom" active="true" version="0.1">
+        <layer type="zoom" active="true" exclude_from_rendering="false" version="0.1">
           <param name="amount">
             <real value="1.0000000000"/>
           </param>
@@ -400,8 +548,8 @@
         </layer>
       </canvas>
     </param>
-    <param name="zoom">
-      <real value="0.0000000000"/>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
     </param>
     <param name="time_offset">
       <time value="0s"/>
@@ -409,13 +557,19 @@
     <param name="children_lock">
       <bool value="false" static="true"/>
     </param>
-    <param name="focus">
-      <vector>
-        <x>0.0000000000</x>
-        <y>0.0000000000</y>
-      </vector>
-    </param>
     <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
       <real value="0.0000000000"/>
     </param>
   </layer>

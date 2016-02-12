@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<canvas version="0.9" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 5</name>
   <meta name="grid_show" content="0"/>
   <meta name="grid_size" content="0.000000 0.000000"/>
@@ -7,23 +7,23 @@
   <meta name="guide_show" content="1"/>
   <meta name="guide_snap" content="0"/>
   <meta name="onion_skin" content="0"/>
-  <keyframe time="0f">neutral</keyframe>
-  <keyframe time="12f">happy</keyframe>
-  <keyframe time="1s">sad</keyframe>
-  <keyframe time="1s 12f">m,p,b</keyframe>
-  <keyframe time="2s">n,l,t,d,r,c</keyframe>
-  <keyframe time="2s 12f">f,v</keyframe>
-  <keyframe time="3s">n,l,t,d,r,c (Duplicate)</keyframe>
-  <keyframe time="3s 12f">zh,sh,ch,j</keyframe>
-  <keyframe time="4s">y,oy,w,er</keyframe>
-  <keyframe time="4s 12f">n,l,t,d,r,c (Duplicate)</keyframe>
-  <keyframe time="5s">aa,ad,ar</keyframe>
-  <keyframe time="5s 12f">iy,ie</keyframe>
-  <keyframe time="6s">th,dh</keyframe>
+  <keyframe time="0f" active="true">neutral</keyframe>
+  <keyframe time="12f" active="true">happy</keyframe>
+  <keyframe time="1s" active="true">sad</keyframe>
+  <keyframe time="1s 12f" active="true">m,p,b</keyframe>
+  <keyframe time="2s" active="true">n,l,t,d,r,c</keyframe>
+  <keyframe time="2s 12f" active="true">f,v</keyframe>
+  <keyframe time="3s" active="true">n,l,t,d,r,c (Duplicate)</keyframe>
+  <keyframe time="3s 12f" active="true">zh,sh,ch,j</keyframe>
+  <keyframe time="4s" active="true">y,oy,w,er</keyframe>
+  <keyframe time="4s 12f" active="true">n,l,t,d,r,c (Duplicate)</keyframe>
+  <keyframe time="5s" active="true">aa,ad,ar</keyframe>
+  <keyframe time="5s 12f" active="true">iy,ie</keyframe>
+  <keyframe time="6s" active="true">th,dh</keyframe>
   <defs>
     <integer value="1" static="true" id="(stk)-lang"/>
   </defs>
-  <layer type="PasteCanvas" active="true" version="0.1">
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -35,13 +35,35 @@
     </param>
     <param name="origin">
       <vector>
-        <x>-0.2833333313</x>
-        <y>-1.0833333731</y>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
       </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <vector>
+            <x>-0.2833333313</x>
+            <y>-1.0833333731</y>
+          </vector>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>1.2840254307</x>
+            <y>1.2840254307</y>
+          </vector>
+        </scale>
+      </composite>
     </param>
     <param name="canvas">
       <canvas>
-        <layer type="PasteCanvas" active="true" version="0.1">
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -57,9 +79,31 @@
               <y>0.0000000000</y>
             </vector>
           </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="BLine2155 Region">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="BLine2155 Region">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -99,7 +143,7 @@
                   <integer value="0"/>
                 </param>
                 <param name="bline">
-                  <bline type="bline_point" loop="true" guid="07E833A77A9F82E5A832EF871766A62F">
+                  <bline guid="07E833A77A9F82E5A832EF871766A62F" type="bline_point" loop="true">
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                       <composite type="bline_point">
                         <point>
@@ -301,6 +345,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -504,6 +554,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -707,6 +763,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -910,12 +972,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="BLine2155 Outline">
+              <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="BLine2155 Outline">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -955,7 +1023,7 @@
                   <integer value="0"/>
                 </param>
                 <param name="bline">
-                  <bline type="bline_point" loop="true" guid="07E833A77A9F82E5A832EF871766A62F">
+                  <bline guid="07E833A77A9F82E5A832EF871766A62F" type="bline_point" loop="true">
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                       <composite type="bline_point">
                         <point>
@@ -1157,6 +1225,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -1360,6 +1434,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -1563,6 +1643,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -1766,6 +1852,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
@@ -1792,7 +1884,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="BLine2155 Region">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="BLine2155 Region">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -1832,7 +1924,7 @@
                   <integer value="0"/>
                 </param>
                 <param name="bline">
-                  <bline type="bline_point" loop="true" guid="35B420C8D9053932AC5D97A933DCA2AD">
+                  <bline guid="35B420C8D9053932AC5D97A933DCA2AD" type="bline_point" loop="true">
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                       <composite type="bline_point">
                         <point>
@@ -2034,6 +2126,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -2237,6 +2335,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -2440,6 +2544,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -2643,12 +2753,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="BLine2155 Outline">
+              <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="BLine2155 Outline">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -2688,7 +2804,7 @@
                   <integer value="0"/>
                 </param>
                 <param name="bline">
-                  <bline type="bline_point" loop="true" guid="35B420C8D9053932AC5D97A933DCA2AD">
+                  <bline guid="35B420C8D9053932AC5D97A933DCA2AD" type="bline_point" loop="true">
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                       <composite type="bline_point">
                         <point>
@@ -2890,6 +3006,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -3093,6 +3215,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -3296,6 +3424,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -3499,6 +3633,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
@@ -3527,8 +3667,8 @@
               </layer>
             </canvas>
           </param>
-          <param name="zoom">
-            <real value="0.0000000000"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
           </param>
           <param name="time_offset">
             <time value="0s"/>
@@ -3536,17 +3676,23 @@
           <param name="children_lock">
             <bool value="false" static="true"/>
           </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
           </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
         </layer>
-        <layer type="PasteCanvas" active="true" version="0.1">
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -3562,9 +3708,31 @@
               <y>0.0000000000</y>
             </vector>
           </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16069 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16069 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -3604,7 +3772,7 @@
                   <integer value="0"/>
                 </param>
                 <param name="bline">
-                  <bline type="bline_point" loop="true" guid="4A3A1DBF93D5A1AD7254A927243A96B4">
+                  <bline guid="4A3A1DBF93D5A1AD7254A927243A96B4" type="bline_point" loop="true">
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                       <composite type="bline_point">
                         <point>
@@ -3806,6 +3974,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -4009,6 +4183,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -4212,6 +4392,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -4415,6 +4601,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -4554,6 +4746,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -4739,6 +4937,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -4942,6 +5146,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -5145,6 +5355,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -5366,6 +5582,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -5641,6 +5863,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -5898,6 +6126,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -6113,6 +6347,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -6334,6 +6574,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -6537,6 +6783,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -6740,6 +6992,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -6943,6 +7201,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -7128,6 +7392,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -7167,6 +7437,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -7206,6 +7482,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -7245,12 +7527,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16095 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16095 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -7328,6 +7616,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -7367,6 +7661,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -7406,6 +7706,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -7445,12 +7751,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="PasteCanvas" active="true" version="0.1">
+              <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -7466,9 +7778,31 @@
                     <y>0.0000000000</y>
                   </vector>
                 </param>
+                <param name="transformation">
+                  <composite type="transformation">
+                    <offset>
+                      <vector>
+                        <x>0.0000000000</x>
+                        <y>0.0000000000</y>
+                      </vector>
+                    </offset>
+                    <angle>
+                      <angle value="0.000000"/>
+                    </angle>
+                    <skew_angle>
+                      <angle value="0.000000"/>
+                    </skew_angle>
+                    <scale>
+                      <vector>
+                        <x>1.0000000000</x>
+                        <y>1.0000000000</y>
+                      </vector>
+                    </scale>
+                  </composite>
+                </param>
                 <param name="canvas">
                   <canvas>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine16076 Область">
+                    <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16076 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -7508,7 +7842,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="D316EF643601417BA76C2EEDE649D99F">
+                        <bline guid="D316EF643601417BA76C2EEDE649D99F" type="bline_point" loop="true">
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                             <composite type="bline_point">
                               <point>
@@ -7716,6 +8050,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -7967,6 +8307,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -8230,6 +8576,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -8499,6 +8851,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -8714,6 +9072,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -8923,12 +9287,18 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                         </bline>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine16076 Контур">
+                    <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16076 Контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -8968,7 +9338,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="D316EF643601417BA76C2EEDE649D99F">
+                        <bline guid="D316EF643601417BA76C2EEDE649D99F" type="bline_point" loop="true">
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                             <composite type="bline_point">
                               <point>
@@ -9176,6 +9546,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -9427,6 +9803,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -9690,6 +10072,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -9959,6 +10347,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -10174,6 +10568,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -10383,6 +10783,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                         </bline>
@@ -10411,8 +10817,8 @@
                     </layer>
                   </canvas>
                 </param>
-                <param name="zoom">
-                  <real value="0.0000000000"/>
+                <param name="time_dilation">
+                  <real value="1.0000000000"/>
                 </param>
                 <param name="time_offset">
                   <time value="0s"/>
@@ -10420,20 +10826,26 @@
                 <param name="children_lock">
                   <bool value="false" static="true"/>
                 </param>
-                <param name="focus">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
                 <param name="outline_grow">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range">
+                  <bool value="false" static="true"/>
+                </param>
+                <param name="z_range_position">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_depth">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_blur">
                   <real value="0.0000000000"/>
                 </param>
               </layer>
             </canvas>
           </param>
-          <param name="zoom">
-            <real value="0.0000000000"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
           </param>
           <param name="time_offset">
             <time value="0s"/>
@@ -10441,17 +10853,23 @@
           <param name="children_lock">
             <bool value="false" static="true"/>
           </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
           </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
         </layer>
-        <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16069Расширенный контур">
+        <layer type="advanced_outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16069Расширенный контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -10491,7 +10909,7 @@
             <integer value="0"/>
           </param>
           <param name="bline">
-            <bline type="bline_point" loop="true" guid="4A3A1DBF93D5A1AD7254A927243A96B4">
+            <bline guid="4A3A1DBF93D5A1AD7254A927243A96B4" type="bline_point" loop="true">
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                 <composite type="bline_point">
                   <point>
@@ -10693,6 +11111,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -10896,6 +11320,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -11099,6 +11529,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -11302,6 +11738,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -11441,6 +11883,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -11626,6 +12074,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -11829,6 +12283,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -12032,6 +12492,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -12253,6 +12719,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -12528,6 +13000,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -12785,6 +13263,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -13000,6 +13484,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -13221,6 +13711,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -13424,6 +13920,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -13627,6 +14129,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -13830,6 +14338,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14015,6 +14529,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14054,6 +14574,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14093,6 +14619,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14132,6 +14664,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -14235,7 +14773,7 @@
             <real value="0.0000000000"/>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2" desc="NewBLine16071 Контур">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16071 Контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -14313,6 +14851,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14352,6 +14896,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14425,6 +14975,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -14451,7 +15007,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2" desc="NewBLine16072 Контур">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16072 Контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -14529,6 +15085,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14568,6 +15130,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14607,6 +15175,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -14633,7 +15207,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2" desc="NewBLine16073 Контур">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16073 Контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -14711,6 +15285,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14750,6 +15330,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -14789,6 +15375,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -14815,7 +15407,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="outline" active="false" version="0.2" desc="NewBLine16074 Контур">
+        <layer type="outline" active="false" exclude_from_rendering="false" version="0.2" desc="NewBLine16074 Контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -15021,6 +15613,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -15254,6 +15852,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -15293,6 +15897,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -15332,6 +15942,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -15358,7 +15974,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2" desc="NewBLine16075 Контур">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16075 Контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -15648,6 +16264,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -15899,6 +16521,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -15925,7 +16553,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="PasteCanvas" active="true" version="0.1">
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -15941,9 +16569,31 @@
               <y>0.0000000000</y>
             </vector>
           </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16077 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16077 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -15983,7 +16633,7 @@
                   <integer value="0"/>
                 </param>
                 <param name="bline">
-                  <bline type="bline_point" loop="true" guid="AFD34CBDA954B565A32ACA402B841E47">
+                  <bline guid="AFD34CBDA954B565A32ACA402B841E47" type="bline_point" loop="true">
                     <entry>
                       <composite type="bline_point">
                         <point>
@@ -16021,6 +16671,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16060,6 +16716,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16099,6 +16761,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16138,6 +16806,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16177,6 +16851,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16216,6 +16896,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16255,12 +16941,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="PasteCanvas" active="true" version="0.1">
+              <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -16276,9 +16968,31 @@
                     <y>0.0000000000</y>
                   </vector>
                 </param>
+                <param name="transformation">
+                  <composite type="transformation">
+                    <offset>
+                      <vector>
+                        <x>0.0000000000</x>
+                        <y>0.0000000000</y>
+                      </vector>
+                    </offset>
+                    <angle>
+                      <angle value="0.000000"/>
+                    </angle>
+                    <skew_angle>
+                      <angle value="0.000000"/>
+                    </skew_angle>
+                    <scale>
+                      <vector>
+                        <x>1.0000000000</x>
+                        <y>1.0000000000</y>
+                      </vector>
+                    </scale>
+                  </composite>
+                </param>
                 <param name="canvas">
                   <canvas>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine16078 Область">
+                    <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16078 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -16318,7 +17032,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="FE10E9FDF930269774C7F7B5BD7F258B">
+                        <bline guid="FE10E9FDF930269774C7F7B5BD7F258B" type="bline_point" loop="true">
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                             <composite type="bline_point">
                               <point>
@@ -16356,6 +17070,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -16395,6 +17115,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -16434,12 +17160,18 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                         </bline>
                       </param>
                     </layer>
-                    <layer type="region" active="true" version="0.1" desc="NewBLine16079 Область">
+                    <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16079 Область">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -16517,6 +17249,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -16556,6 +17294,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -16595,12 +17339,18 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                         </bline>
                       </param>
                     </layer>
-                    <layer type="outline" active="true" version="0.2" desc="NewBLine16078 Контур">
+                    <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16078 Контур">
                       <param name="z_depth">
                         <real value="0.0000000000"/>
                       </param>
@@ -16640,7 +17390,7 @@
                         <integer value="0"/>
                       </param>
                       <param name="bline">
-                        <bline type="bline_point" loop="true" guid="FE10E9FDF930269774C7F7B5BD7F258B">
+                        <bline guid="FE10E9FDF930269774C7F7B5BD7F258B" type="bline_point" loop="true">
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                             <composite type="bline_point">
                               <point>
@@ -16678,6 +17428,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -16717,6 +17473,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                           <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -16756,6 +17518,12 @@
                                   </theta>
                                 </radial_composite>
                               </t2>
+                              <split_radius>
+                                <bool value="false"/>
+                              </split_radius>
+                              <split_angle>
+                                <bool value="false"/>
+                              </split_angle>
                             </composite>
                           </entry>
                         </bline>
@@ -16784,8 +17552,8 @@
                     </layer>
                   </canvas>
                 </param>
-                <param name="zoom">
-                  <real value="0.0000000000"/>
+                <param name="time_dilation">
+                  <real value="1.0000000000"/>
                 </param>
                 <param name="time_offset">
                   <time value="0s"/>
@@ -16793,17 +17561,23 @@
                 <param name="children_lock">
                   <bool value="false" static="true"/>
                 </param>
-                <param name="focus">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
                 <param name="outline_grow">
                   <real value="0.0000000000"/>
                 </param>
+                <param name="z_range">
+                  <bool value="false" static="true"/>
+                </param>
+                <param name="z_range_position">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_depth">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_blur">
+                  <real value="0.0000000000"/>
+                </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2">
+              <layer type="advanced_outline" active="true" exclude_from_rendering="false" version="0.2">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -16843,7 +17617,7 @@
                   <integer value="0"/>
                 </param>
                 <param name="bline">
-                  <bline type="bline_point" loop="true" guid="AFD34CBDA954B565A32ACA402B841E47">
+                  <bline guid="AFD34CBDA954B565A32ACA402B841E47" type="bline_point" loop="true">
                     <entry>
                       <composite type="bline_point">
                         <point>
@@ -16881,6 +17655,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16920,6 +17700,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16959,6 +17745,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -16998,6 +17790,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -17037,6 +17835,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -17076,6 +17880,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry>
@@ -17115,6 +17925,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
@@ -17284,7 +18100,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="advanced_outline" active="true" version="0.2" desc="NewBLine16080Расширенный контур">
+              <layer type="advanced_outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16080Расширенный контур">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -17324,7 +18140,7 @@
                   <integer value="0"/>
                 </param>
                 <param name="bline">
-                  <bline type="bline_point" loop="false" guid="463549F54526ABF1B298AB31EFE3F13E">
+                  <bline guid="463549F54526ABF1B298AB31EFE3F13E" type="bline_point" loop="false">
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                       <composite type="bline_point">
                         <point>
@@ -17362,6 +18178,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -17417,6 +18239,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -17456,6 +18284,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
@@ -17559,7 +18393,7 @@
                   <real value="0.0000000000"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16081 Контур">
+              <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16081 Контур">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -17637,6 +18471,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -17692,6 +18532,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
@@ -17718,7 +18564,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="outline" active="true" version="0.2" desc="NewBLine16082 Контур">
+              <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16082 Контур">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -17796,6 +18642,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -17835,6 +18687,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
@@ -17861,7 +18719,7 @@
                   <bool value="true"/>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16083 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16083 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -18013,6 +18871,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="true"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="true"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18126,6 +18990,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18239,6 +19109,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18352,6 +19228,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
@@ -18359,8 +19241,8 @@
               </layer>
             </canvas>
           </param>
-          <param name="zoom">
-            <real value="0.0000000000"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
           </param>
           <param name="time_offset">
             <time value="0s"/>
@@ -18368,17 +19250,23 @@
           <param name="children_lock">
             <bool value="false" static="true"/>
           </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
           </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
         </layer>
-        <layer type="region" active="true" version="0.1" desc="NewBLine16084 Область">
+        <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16084 Область">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -18418,7 +19306,7 @@
             <integer value="0"/>
           </param>
           <param name="bline">
-            <bline type="bline_point" loop="true" guid="015716D6771D736F8CFDFD5BA0455B4A">
+            <bline guid="015716D6771D736F8CFDFD5BA0455B4A" type="bline_point" loop="true">
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                 <composite type="bline_point">
                   <point>
@@ -18456,6 +19344,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18495,6 +19389,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18534,6 +19434,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18573,6 +19479,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18612,6 +19524,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18651,6 +19569,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18690,6 +19614,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18729,6 +19659,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18768,6 +19704,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18807,6 +19749,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18846,6 +19794,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18885,6 +19839,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18924,6 +19884,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -18963,6 +19929,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19002,6 +19974,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19041,6 +20019,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19080,6 +20064,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19119,6 +20109,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19158,6 +20154,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19197,6 +20199,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19236,6 +20244,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19275,6 +20289,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19314,6 +20334,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19353,12 +20379,18 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -19398,7 +20430,7 @@
             <integer value="0"/>
           </param>
           <param name="bline">
-            <bline type="bline_point" loop="true" guid="015716D6771D736F8CFDFD5BA0455B4A">
+            <bline guid="015716D6771D736F8CFDFD5BA0455B4A" type="bline_point" loop="true">
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                 <composite type="bline_point">
                   <point>
@@ -19436,6 +20468,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19475,6 +20513,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19514,6 +20558,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19553,6 +20603,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19592,6 +20648,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19631,6 +20693,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19670,6 +20738,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19709,6 +20783,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19748,6 +20828,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19787,6 +20873,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19826,6 +20918,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19865,6 +20963,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19904,6 +21008,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19943,6 +21053,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -19982,6 +21098,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20021,6 +21143,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20060,6 +21188,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20099,6 +21233,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20138,6 +21278,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20177,6 +21323,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20216,6 +21368,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20255,6 +21413,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20294,6 +21458,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20333,6 +21503,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -20359,7 +21535,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="region" active="true" version="0.1" desc="NewBLine16085 Область">
+        <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16085 Область">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -20399,7 +21575,7 @@
             <integer value="0"/>
           </param>
           <param name="bline">
-            <bline type="bline_point" loop="false" guid="C0DF611ABF3F287E5A0093FCCB735EDC">
+            <bline guid="C0DF611ABF3F287E5A0093FCCB735EDC" type="bline_point" loop="false">
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                 <composite type="bline_point">
                   <point>
@@ -20437,6 +21613,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20476,6 +21658,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20515,6 +21703,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20554,6 +21748,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20593,6 +21793,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20632,12 +21838,18 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2" desc="NewBLine16085 Контур">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16085 Контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -20677,7 +21889,7 @@
             <integer value="0"/>
           </param>
           <param name="bline">
-            <bline type="bline_point" loop="false" guid="C0DF611ABF3F287E5A0093FCCB735EDC">
+            <bline guid="C0DF611ABF3F287E5A0093FCCB735EDC" type="bline_point" loop="false">
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                 <composite type="bline_point">
                   <point>
@@ -20715,6 +21927,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20754,6 +21972,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20793,6 +22017,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20832,6 +22062,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20871,6 +22107,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -20910,6 +22152,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -20936,7 +22184,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2" desc="NewBLine16086 Контур">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16086 Контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -21014,6 +22262,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21053,6 +22307,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21092,6 +22352,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21131,6 +22397,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -21157,7 +22429,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2" desc="NewBLine16087 Контур">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="NewBLine16087 Контур">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -21235,6 +22507,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21274,6 +22552,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21313,6 +22597,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -21339,7 +22629,7 @@
             <bool value="true"/>
           </param>
         </layer>
-        <layer type="PasteCanvas" active="true" version="0.1">
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -21355,9 +22645,31 @@
               <y>0.0000000000</y>
             </vector>
           </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
           <param name="canvas">
             <canvas>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16088 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16088 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -21435,6 +22747,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21474,6 +22792,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21513,6 +22837,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21552,6 +22882,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21591,6 +22927,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21630,6 +22972,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21669,6 +23017,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21708,6 +23062,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21747,12 +23107,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16089 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16089 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -21830,6 +23196,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21869,6 +23241,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21908,6 +23286,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21947,6 +23331,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -21986,6 +23376,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -22047,6 +23443,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -22086,6 +23488,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -22125,6 +23533,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -22164,12 +23578,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16090 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16090 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -22387,6 +23807,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -22608,6 +24034,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -22711,6 +24143,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -22878,12 +24316,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16091 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16091 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -23125,6 +24569,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -23328,6 +24778,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -23419,6 +24875,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -23622,6 +25084,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -23825,6 +25293,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -24028,6 +25502,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -24231,6 +25711,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -24434,12 +25920,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16092 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16092 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -24681,6 +26173,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -24884,6 +26382,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25087,6 +26591,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25226,6 +26736,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25265,6 +26781,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25468,6 +26990,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25671,12 +27199,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16093 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16093 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -25754,6 +27288,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25793,6 +27333,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25832,6 +27378,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25871,6 +27423,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25910,6 +27468,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25949,6 +27513,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -25988,6 +27558,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26027,12 +27603,18 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
                 </param>
               </layer>
-              <layer type="region" active="true" version="0.1" desc="NewBLine16094 Область">
+              <layer type="region" active="true" exclude_from_rendering="false" version="0.1" desc="NewBLine16094 Область">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -26110,6 +27692,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26149,6 +27737,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26188,6 +27782,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26227,6 +27827,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26266,6 +27872,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26305,6 +27917,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26344,6 +27962,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26383,6 +28007,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26422,6 +28052,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26461,6 +28097,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                     <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26500,6 +28142,12 @@
                             </theta>
                           </radial_composite>
                         </t2>
+                        <split_radius>
+                          <bool value="false"/>
+                        </split_radius>
+                        <split_angle>
+                          <bool value="false"/>
+                        </split_angle>
                       </composite>
                     </entry>
                   </bline>
@@ -26507,8 +28155,8 @@
               </layer>
             </canvas>
           </param>
-          <param name="zoom">
-            <real value="0.0000000000"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
           </param>
           <param name="time_offset">
             <time value="0s"/>
@@ -26516,17 +28164,23 @@
           <param name="children_lock">
             <bool value="false" static="true"/>
           </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
           </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
         </layer>
-        <layer type="region" active="true" version="0.1">
+        <layer type="region" active="true" exclude_from_rendering="false" version="0.1">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -26566,7 +28220,7 @@
             <integer value="0"/>
           </param>
           <param name="bline">
-            <bline type="bline_point" loop="true" guid="32FAE24595F4645ADC79C44C1F62D144">
+            <bline guid="32FAE24595F4645ADC79C44C1F62D144" type="bline_point" loop="true">
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                 <composite type="bline_point">
                   <point>
@@ -26768,6 +28422,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -26971,6 +28631,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -27174,6 +28840,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -27377,12 +29049,18 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
           </param>
         </layer>
-        <layer type="outline" active="true" version="0.2" desc="BLine2154 Outline">
+        <layer type="outline" active="true" exclude_from_rendering="false" version="0.2" desc="BLine2154 Outline">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -27422,7 +29100,7 @@
             <integer value="0"/>
           </param>
           <param name="bline">
-            <bline type="bline_point" loop="true" guid="32FAE24595F4645ADC79C44C1F62D144">
+            <bline guid="32FAE24595F4645ADC79C44C1F62D144" type="bline_point" loop="true">
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
                 <composite type="bline_point">
                   <point>
@@ -27624,6 +29302,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -27827,6 +29511,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -28030,6 +29720,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="true"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="true"/>
+                  </split_angle>
                 </composite>
               </entry>
               <entry on="2s 12f, 3s, 3s 12f, 4s, 4s 12f, 5s">
@@ -28233,6 +29929,12 @@
                       </theta>
                     </radial_composite>
                   </t2>
+                  <split_radius>
+                    <bool value="false"/>
+                  </split_radius>
+                  <split_angle>
+                    <bool value="false"/>
+                  </split_angle>
                 </composite>
               </entry>
             </bline>
@@ -28261,8 +29963,8 @@
         </layer>
       </canvas>
     </param>
-    <param name="zoom">
-      <real value="0.2500000000"/>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
     </param>
     <param name="time_offset">
       <time value="0s"/>
@@ -28270,17 +29972,23 @@
     <param name="children_lock">
       <bool value="false" static="true"/>
     </param>
-    <param name="focus">
-      <vector>
-        <x>0.0000000000</x>
-        <y>0.0000000000</y>
-      </vector>
-    </param>
     <param name="outline_grow">
       <real value="0.5000000000"/>
     </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
+      <real value="0.0000000000"/>
+    </param>
   </layer>
-  <layer type="PasteCanvas" active="true" version="0.1" desc="kf-marks">
+  <layer type="group" active="true" exclude_from_rendering="false" version="0.2" desc="kf-marks">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -28292,13 +30000,35 @@
     </param>
     <param name="origin">
       <vector>
-        <x>-3.6400697231</x>
-        <y>1.9727411270</y>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
       </vector>
+    </param>
+    <param name="transformation">
+      <composite type="transformation">
+        <offset>
+          <vector>
+            <x>-3.6400697231</x>
+            <y>1.9727411270</y>
+          </vector>
+        </offset>
+        <angle>
+          <angle value="0.000000"/>
+        </angle>
+        <skew_angle>
+          <angle value="0.000000"/>
+        </skew_angle>
+        <scale>
+          <vector>
+            <x>1.0000000000</x>
+            <y>1.0000000000</y>
+          </vector>
+        </scale>
+      </composite>
     </param>
     <param name="canvas">
       <canvas>
-        <layer type="rectangle" active="true" version="0.2" desc="Rectangle082">
+        <layer type="rectangle" active="true" exclude_from_rendering="false" version="0.2" desc="Rectangle082">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -28335,7 +30065,7 @@
             <bool value="false"/>
           </param>
         </layer>
-        <layer type="PasteCanvas" active="true" version="0.1" desc="phonemes">
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2" desc="phonemes">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -28351,9 +30081,31 @@
               <y>0.0000000000</y>
             </vector>
           </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
           <param name="canvas">
             <canvas>
-              <layer type="PasteCanvas" active="true" version="0.1">
+              <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -28365,13 +30117,35 @@
                 </param>
                 <param name="origin">
                   <vector>
-                    <x>3.6982245445</x>
-                    <y>-2.2202382088</y>
+                    <x>0.0000000000</x>
+                    <y>0.0000000000</y>
                   </vector>
                 </param>
+                <param name="transformation">
+                  <composite type="transformation">
+                    <offset>
+                      <vector>
+                        <x>3.6982245445</x>
+                        <y>-2.2202382088</y>
+                      </vector>
+                    </offset>
+                    <angle>
+                      <angle value="0.000000"/>
+                    </angle>
+                    <skew_angle>
+                      <angle value="0.000000"/>
+                    </skew_angle>
+                    <scale>
+                      <vector>
+                        <x>1.0000000000</x>
+                        <y>1.0000000000</y>
+                      </vector>
+                    </scale>
+                  </composite>
+                </param>
                 <param name="canvas" use="lang.sif#"/>
-                <param name="zoom">
-                  <real value="0.0000000000"/>
+                <param name="time_dilation">
+                  <real value="1.0000000000"/>
                 </param>
                 <param name="time_offset">
                   <time value="0s"/>
@@ -28379,17 +30153,23 @@
                 <param name="children_lock">
                   <bool value="true"/>
                 </param>
-                <param name="focus">
-                  <vector>
-                    <x>0.0000000000</x>
-                    <y>0.0000000000</y>
-                  </vector>
-                </param>
                 <param name="outline_grow">
                   <real value="0.0000000000"/>
                 </param>
+                <param name="z_range">
+                  <bool value="false" static="true"/>
+                </param>
+                <param name="z_range_position">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_depth">
+                  <real value="0.0000000000"/>
+                </param>
+                <param name="z_range_blur">
+                  <real value="0.0000000000"/>
+                </param>
               </layer>
-              <layer type="translate" active="true" version="0.1" desc="phoneme-shift">
+              <layer type="translate" active="true" exclude_from_rendering="false" version="0.1" desc="phoneme-shift">
                 <param name="origin">
                   <composite type="vector">
                     <x>
@@ -28421,7 +30201,7 @@
                   </composite>
                 </param>
               </layer>
-              <layer type="translate" active="true" version="0.1" desc="lang-shift">
+              <layer type="translate" active="true" exclude_from_rendering="false" version="0.1" desc="lang-shift">
                 <param name="origin">
                   <composite type="vector">
                     <x>
@@ -28442,8 +30222,8 @@
               </layer>
             </canvas>
           </param>
-          <param name="zoom">
-            <real value="0.0000000000"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
           </param>
           <param name="time_offset">
             <time value="0s"/>
@@ -28451,17 +30231,23 @@
           <param name="children_lock">
             <bool value="false" static="true"/>
           </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
           </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
         </layer>
-        <layer type="PasteCanvas" active="true" version="0.1" desc="mimic">
+        <layer type="group" active="true" exclude_from_rendering="false" version="0.2" desc="mimic">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
@@ -28502,9 +30288,31 @@
               <y>0.0000000000</y>
             </vector>
           </param>
+          <param name="transformation">
+            <composite type="transformation">
+              <offset>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </offset>
+              <angle>
+                <angle value="0.000000"/>
+              </angle>
+              <skew_angle>
+                <angle value="0.000000"/>
+              </skew_angle>
+              <scale>
+                <vector>
+                  <x>1.0000000000</x>
+                  <y>1.0000000000</y>
+                </vector>
+              </scale>
+            </composite>
+          </param>
           <param name="canvas">
             <canvas>
-              <layer type="SolidColor" active="true" version="0.1">
+              <layer type="SolidColor" active="true" exclude_from_rendering="false" version="0.1">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -28523,7 +30331,7 @@
                   </color>
                 </param>
               </layer>
-              <layer type="text" active="true" version="0.2" desc="Text055">
+              <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="Text055">
                 <param name="z_depth">
                   <real value="0.0000000000"/>
                 </param>
@@ -28536,7 +30344,7 @@
                 <param name="text">
                   <animated type="string">
                     <waypoint time="0s" before="constant" after="constant">
-                      <string></string>
+                      <string guid="83BF50F64F4DB9AD1C050EEF360DE4A4"> </string>
                     </waypoint>
                     <waypoint time="0.5s" before="constant" after="constant">
                       <string>:)</string>
@@ -28617,8 +30425,8 @@
               </layer>
             </canvas>
           </param>
-          <param name="zoom">
-            <real value="0.0000000000"/>
+          <param name="time_dilation">
+            <real value="1.0000000000"/>
           </param>
           <param name="time_offset">
             <time value="0s"/>
@@ -28626,17 +30434,23 @@
           <param name="children_lock">
             <bool value="false" static="true"/>
           </param>
-          <param name="focus">
-            <vector>
-              <x>0.0000000000</x>
-              <y>0.0000000000</y>
-            </vector>
-          </param>
           <param name="outline_grow">
             <real value="0.0000000000"/>
           </param>
+          <param name="z_range">
+            <bool value="false" static="true"/>
+          </param>
+          <param name="z_range_position">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="z_range_blur">
+            <real value="0.0000000000"/>
+          </param>
         </layer>
-        <layer type="zoom" active="true" version="0.1">
+        <layer type="zoom" active="true" exclude_from_rendering="false" version="0.1">
           <param name="amount">
             <real value="1.0000000000"/>
           </param>
@@ -28649,8 +30463,8 @@
         </layer>
       </canvas>
     </param>
-    <param name="zoom">
-      <real value="0.0000000000"/>
+    <param name="time_dilation">
+      <real value="1.0000000000"/>
     </param>
     <param name="time_offset">
       <time value="0s"/>
@@ -28658,13 +30472,19 @@
     <param name="children_lock">
       <bool value="false" static="true"/>
     </param>
-    <param name="focus">
-      <vector>
-        <x>0.0000000000</x>
-        <y>0.0000000000</y>
-      </vector>
-    </param>
     <param name="outline_grow">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range">
+      <bool value="false" static="true"/>
+    </param>
+    <param name="z_range_position">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="z_range_blur">
       <real value="0.0000000000"/>
     </param>
   </layer>
